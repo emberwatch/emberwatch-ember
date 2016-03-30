@@ -107,17 +107,24 @@ ul.tabs{
     margin-right:10px;
     line-height:40px;
 
+    cursor: pointer;
+
+    &:hover {
+      &:not(.active) {
+        text-decoration: underline;
+      }
+
+      &.active {
+        cursor: default;
+      }
+    }
+
     &.active{
       color:#FFF;
       font-weight:bold;
       background:#2ba6cb;
       border-radius:50px;
       padding:5px 10px;
-    }
-
-    & a{
-      text-decoration:none;
-      color:inherit;
     }
   }
 }
