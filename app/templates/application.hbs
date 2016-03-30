@@ -1,3 +1,46 @@
-<h2 id="title">Welcome to Ember</h2>
+<nav>
+  <div class="container">
+    <ul>
+      <li class="name">
+        <h1>
+          <a href="/">
+            <i class="foundicon-glasses"></i> Ember<span class="light">Watch</span>
+          </a>
+        </h1>
+      </li>
+    </ul>
 
-{{outlet}}
+    <ul class="right">
+      <li>
+        <a href="http://twitter.com/emberwatch">
+          @emberwatch
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<ul class="tabs">
+  <div class="container">
+    {{link-to 'Talks' 'talks' tagName='li'}}
+    {{link-to 'Screencasts' 'screencasts' tagName='li'}}
+    {{link-to 'Podcasts' 'podcasts' tagName='li'}}
+    {{link-to 'Tutorials' 'tutorials' tagName='li'}}
+    {{link-to 'Books' 'books' tagName='li'}}
+    {{link-to 'Cookbook' 'recipes' tagName='li'}}
+    {{link-to 'Contribute' 'contribute' tagName='li'}}
+  </div>
+</ul>
+
+<section>
+  <div class="container">
+    {{outlet}}
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>EmberWatch is a community-driven site. Anyone is welcome to contribute.</p>
+    <p>Find more about <a href="/CONTRIBUTING.html">contributing</a> to EmberWatch!</p>
+  </div>
+</footer>
