@@ -6,6 +6,13 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('talks');
+  this.route('screencasts');
+  this.route('podcasts');
+  this.route('tutorials');
+  this.route('books');
+  this.route('recipes');
+  this.route('contribute');
 });
 
 export default Router;
