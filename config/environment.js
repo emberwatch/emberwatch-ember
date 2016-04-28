@@ -10,8 +10,7 @@ module.exports = function(environment) {
       FEATURES: { }
     },
 
-    APP: {
-    }
+    APP: { }
   };
 
   if (environment === 'test') {
@@ -27,7 +26,6 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') { }
-
 
   return ENV;
 };
