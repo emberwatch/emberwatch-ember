@@ -13,6 +13,11 @@ module.exports = function(environment) {
     APP: { }
   };
 
+  ENV.awsLambda = {
+    baseUrl: 'https://00xdxb1q7j.execute-api.us-east-1.amazonaws.com',
+    podcastPath: 'prod/jarsson?rss='
+  };
+
   if (environment === 'test') {
     // Testem prefers this...
     ENV.baseURL = '/';
