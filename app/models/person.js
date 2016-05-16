@@ -1,7 +1,6 @@
 import Model from 'ember-data/model';
 import attr from 'ember-data/attr';
 
-
 export default Model.extend({
   name: attr('string'),
   github: attr('string'),
@@ -9,5 +8,5 @@ export default Model.extend({
   speakerdeck: attr('string'),
   slideshare: attr('string'),
   site: attr('string'),
-  company: attr('string'),
+  company: attr('string')
 });

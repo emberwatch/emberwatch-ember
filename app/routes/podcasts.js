@@ -26,8 +26,8 @@ export default Route.extend({
 
   _fetchFeedEpisodes(feed) {
     const encodedFeedURI = encodeURIComponent(feed.get('url')),
-          _lambda = ENV.awsLambda,
-          lambdaUrl = `${_lambda.baseUrl}/${_lambda.podcastPath}`;
+      _lambda = ENV.awsLambda,
+      lambdaUrl = `${_lambda.baseUrl}/${_lambda.podcastPath}`;
 
     return fetch(`${lambdaUrl}${encodedFeedURI}`).then(response => {
       return response.json().then(feedItems => {
