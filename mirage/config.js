@@ -8,4 +8,12 @@ export default function() {
   this.get('/podcast/feeds', ({db}) => {
     return serializeFixturesToJsonApi(db.podcastFeeds, 'podcast/feed');
   });
+
+  this.get('/people', (schema) => {
+    return schema.person.all();
+  });
+
+  this.get('/books', (schema)=> {
+    return schema.book.all();
+  });
 }

@@ -1,0 +1,1903 @@
+export default [
+  {
+    id: 1,
+    name: 'Yehuda Katz',
+    github: 'wycats',
+    twitter: 'wycats',
+    speakerdeck: 'wycats',
+    site: 'http://yehudakatz.com/',
+    company: 'Tilde'
+  },
+  {
+    id: 2,
+    name: 'Tom Dale',
+    github: 'tomdale',
+    twitter: 'tomdale',
+    speakerdeck: 'tomdale',
+    site: 'http://tomdale.net/',
+    company: 'Tilde'
+  },
+  {
+    id: 3,
+    name: 'Peter Wagenet',
+    github: 'wagenet',
+    twitter: 'wagenet',
+    slideshare: 'pwagenet',
+    site: 'http://www.emberist.com/',
+    company: 'Tilde'
+  },
+  {
+    id: 4,
+    name: 'Luke Melia',
+    twitter: 'lukemelia',
+    github: 'lukemelia',
+    speakerdeck: 'lukemelia',
+    site: 'http://www.lukemelia.com/',
+    company: 'Yapp'
+  },
+  {
+    id: 5,
+    name: 'Mark Mansour'
+  },
+  {
+    id: 6,
+    name: 'Garret Alfert'
+  },
+  {
+    id: 7,
+    name: 'Trek Glowacki',
+    twitter: 'trek',
+    github: 'trek',
+    site: 'http://trek.github.com',
+    company: 'Groupon Engineering'
+  },
+  {
+    id: 8,
+    name: 'Andy Leeper',
+    github: 'leepfrog',
+    company: 'Mochaleaf'
+  },
+  {
+    id: 9,
+    name: 'Ray Cohen',
+    github: 'raycohen',
+    twitter: 'raycohen',
+    site: 'http://raycohen.com'
+  },
+  {
+    id: 10,
+    name: 'Dan Gebhardt',
+    github: 'dgeb',
+    twitter: 'dgeb',
+    site: 'http://www.cerebris.com/blog/'
+  },
+  {
+    id: 11,
+    name: 'Toran Billups',
+    github: 'toranb',
+    twitter: 'toranb',
+    site: 'http://www.toranbillups.com/'
+  },
+  {
+    id: 12,
+    name: 'James Croft',
+    github: 'crofty',
+    twitter: 'james_croft',
+    site: 'http://matchingnotes.com/'
+  },
+  {
+    id: 13,
+    name: 'Tony Sherbondy'
+  },
+  {
+    id: 14,
+    name: 'Jeremy Mack',
+    github: 'mutewinter',
+    twitter: 'mutewinter',
+    site: 'http://pileofturtles.com/'
+  },
+  {
+    id: 15,
+    name: 'Christopher Meiklejohn',
+    twitter: 'cmeik',
+    github: 'cmeiklejohn',
+    site: 'http://christophermeiklejohn.com/'
+  },
+  {
+    id: 16,
+    name: 'Andy Matthews',
+    twitter: 'commadelimited',
+    github: 'commadelimited',
+    site: 'http://andymatthews.net/'
+  },
+  {
+    id: 17,
+    name: 'Diego Muñoz Escalante',
+    github: 'escalant3',
+    twitter: 'escalant3',
+    site: 'http://about.me/escalant3'
+  },
+  {
+    id: 18,
+    name: 'Joachim Haagen Skeie',
+    github: 'joachimhs',
+    twitter: 'joachimhs',
+    site: 'http://haagen.name/'
+  },
+  {
+    id: 19,
+    name: 'Drew Schrauf',
+    github: 'drewschrauf',
+    twitter: 'drewschrauf',
+    site: 'http://drewschrauf.com/'
+  },
+  {
+    id: 20,
+    name: 'Adam Hawkins',
+    github: 'twinturbo',
+    twitter: 'adman65',
+    site: 'http://broadcastingadam.com/'
+  },
+  {
+    id: 21,
+    name: 'Anthony Bull',
+    github: 'inkredabull',
+    twitter: 'inkredabull',
+    site: 'http://anthonybull.com/'
+  },
+  {
+    id: 22,
+    name: 'Tom Brandt',
+    twitter: 'twbrandt',
+    github: 'twbrandt',
+    site: 'http://twbrandt.github.com'
+  },
+  {
+    id: 23,
+    name: 'Geoffrey Grosenbach',
+    twitter: 'topfunky',
+    github: 'topfunky',
+    site: 'https://peepcode.com/'
+  },
+  {
+    id: 24,
+    name: 'Noel Rappin',
+    twitter: 'noelrap',
+    github: 'noelrappin',
+    site: 'http://www.noelrappin.com/'
+  },
+  {
+    id: 25,
+    name: 'Marc Bodmer',
+    twitter: 'marcbodmer',
+    github: 'm-bodmer',
+    site: 'http://www.mbodmer.com/'
+  },
+  {
+    id: 26,
+    name: 'Benoît Lemoine',
+    twitter: 'benoit_lemoine',
+    github: 'blemoine'
+  },
+  {
+    id: 27,
+    name: 'Mathieu Breton',
+    twitter: 'MatBreton',
+    github: 'mbreton'
+  },
+  {
+    id: 28,
+    name: 'Jeff Atwood',
+    twitter: 'codinghorror',
+    site: 'http://www.codinghorror.com/'
+  },
+  {
+    id: 29,
+    name: 'Brian Cardarella',
+    site: 'http://dockyard.com/'
+  },
+  {
+    id: 30,
+    name: 'Mads Kristensen',
+    site: 'http://madskristensen.net/'
+  },
+  {
+    id: 31,
+    name: 'Igor Terzic',
+    twitter: 'terzicigor',
+    github: 'igorT',
+    site: 'http://terzicigor.com/'
+  },
+  {
+    id: 32,
+    name: 'Jo Liss',
+    site: 'http://www.solitr.com/blog/'
+  },
+  {
+    id: 33,
+    name: 'Kristofor Selden',
+    twitter: 'krisselden',
+    github: 'krisselden',
+    site: 'http://krisselden.com/'
+  },
+  {
+    id: 34,
+    name: 'Justin Giancola'
+  },
+  {
+    id: 35,
+    name: 'Ryan Bates',
+    site: 'http://railscasts.com'
+  },
+  {
+    id: 36,
+    name: 'Rey Bango',
+    twitter: 'reybango',
+    site: 'http://blog.reybango.com/'
+  },
+  {
+    id: 37,
+    name: 'Lukas Zielinkski',
+    site: 'http://www.lukaszielinski.de/'
+  },
+  {
+    id: 38,
+    name: 'Peter Bergstrom'
+  },
+  {
+    id: 39,
+    name: 'Erik Bryn',
+    twitter: 'ebryn',
+    site: 'http://erikbryn.com'
+  },
+  {
+    id: 40,
+    name: 'Gordon L. Hempton',
+    site: 'http://codebrief.com/'
+  },
+  {
+    id: 41,
+    name: 'Jesse Cravens',
+    github: 'jessecravens',
+    twitter: 'jdcravens',
+    site: 'http://jessecravens.com/'
+  },
+  {
+    id: 42,
+    name: 'José Mota',
+    twitter: 'josemotanet',
+    site: 'http://josemota.net/'
+  },
+  {
+    id: 43,
+    name: 'Ryan Florence',
+    twitter: 'ryanflorence',
+    site: 'http://ryanflorence.com/'
+  },
+  {
+    id: 44,
+    name: 'Mark Bates',
+    site: 'http://metabates.com/'
+  },
+  {
+    id: 45,
+    name: 'Alex Matchneer',
+    twitter: 'machty',
+    site: 'http://alexmatchneer.com/'
+  },
+  {
+    id: 46,
+    name: 'Benjamin Rhodes'
+  },
+  {
+    id: 47,
+    name: 'Gabriel Grant',
+    twitter: 'gabrielmgrant',
+    site: 'http://gabrielgrant.ca',
+    github: 'gabrielgrant'
+  },
+  {
+    id: 49,
+    name: 'Ryan Toronto',
+    github: 'ryanto',
+    site: 'http://ryanto.github.io/'
+  },
+  {
+    id: 50,
+    name: 'Kasper Tidemann',
+    twitter: 'KasperTidemann',
+    github: 'KasperTidemann',
+    site: 'http://www.kaspertidemann.com/'
+  },
+  {
+    id: 51,
+    name: 'Justin Gordon',
+    twitter: 'railsonmaui',
+    github: 'justin808',
+    site: 'http://www.railsonmaui.com/'
+  },
+  {
+    id: 52,
+    name: 'Alex Navasardyan',
+    twitter: 'twokul',
+    github: 'twokul',
+    site: 'http://navasardyan.net/'
+  },
+  {
+    id: 53,
+    name: 'Giles Bowkett',
+    twitter: 'gilesgoatboy',
+    github: 'gilesbowkett',
+    site: 'http://gilesbowkett.blogspot.co.uk/'
+  },
+  {
+    id: 54,
+    name: 'Stefan Penner',
+    twitter: 'stefanpenner',
+    github: 'stefanpenner',
+    site: 'http://iamstef.net/'
+  },
+  {
+    id: 55,
+    name: 'Michael Grassotti',
+    twitter: 'mgrassotti',
+    github: 'mikegrassotti',
+    site: 'http://mikegrassotti.github.io/'
+  },
+  {
+    id: 56,
+    name: 'Domenic Denicola',
+    twitter: 'domenic',
+    github: 'domenic',
+    site: 'http://domenicdenicola.com/'
+  },
+  {
+    id: 57,
+    name: 'Matthew Beale',
+    twitter: 'mixonic',
+    github: 'mixonic',
+    site: 'http://madhatted.com/'
+  },
+  {
+    id: 58,
+    name: 'Jeffrey Biles',
+    twitter: 'jeffreybiles',
+    github: 'jeffreybiles',
+    site: 'http://jeffreybiles.com/'
+  },
+  {
+    id: 59,
+    name: 'James A Rosen',
+    twitter: 'jamesarosen',
+    github: 'jamesarosen',
+    site: 'http://jamesarosen.com/'
+  },
+  {
+    id: 60,
+    name: 'Katie Gengler',
+    twitter: 'katiegengler',
+    github: 'kategengler',
+    site: 'http://codeallday.com/',
+    speakerdeck: 'katiegengler'
+  },
+  {
+    id: 61,
+    name: 'Eric Berry',
+    twitter: 'cavneb',
+    github: 'cavneb',
+    site: 'http://coderberry.me/'
+  },
+  {
+    id: 62,
+    name: 'Paul Chavard',
+    twitter: 'tchak13',
+    github: 'tchak',
+    site: 'http://tchak.net/'
+  },
+  {
+    id: 63,
+    name: 'Robin Ward',
+    twitter: 'evil_trout',
+    github: 'eviltrout',
+    site: 'http://eviltrout.com/'
+  },
+  {
+    id: 64,
+    name: 'Jiří Zajpt',
+    twitter: 'jzajpt',
+    github: 'jzajpt',
+    site: 'http://jzajpt.github.io/'
+  },
+  {
+    id: 65,
+    name: 'Damien Mathieu',
+    github: 'dmathieu',
+    twitter: 'https://twitter.com/dmathieu',
+    site: 'http://dmathieu.com/'
+  },
+  {
+    id: 66,
+    name: 'Bradley Priest',
+    twitter: 'bradleypriest',
+    github: 'bradleypriest',
+    site: 'http://bradleypriest.com'
+  },
+  {
+    id: 67,
+    name: 'Karl Guillotte',
+    twitter: 'karlguillotte',
+    github: 'karlguillotte',
+    site: 'http://about.me/karl.guillotte'
+  },
+  {
+    id: 68,
+    name: 'Rem Zolotykh',
+    twitter: 'remzolotykh',
+    github: 'remchi',
+    site: 'http://remchi.me/'
+  },
+  {
+    id: 69,
+    name: 'Brandon Hays',
+    twitter: 'tehviking',
+    github: 'tehviking',
+    site: 'http://brandonhays.com/blog/'
+  },
+  {
+    id: 70,
+    name: 'Andre Malan',
+    twitter: 'ramcio',
+    github: 'andremalan',
+    site: 'http://andremalan.net/'
+  },
+  {
+    id: 71,
+    name: 'Irvin Zhan',
+    twitter: 'IrvinZhan',
+    github: 'izhan'
+  },
+  {
+    id: 72,
+    name: 'Gavin Joyce',
+    twitter: 'gavinjoyce',
+    github: 'gavinjoyce',
+    site: 'http://www.gavinjoyce.com/'
+  },
+  {
+    id: 73,
+    name: 'John Allison',
+    twitter: 'jrallison',
+    github: 'jrallison',
+    site: 'https://medium.com/@jrallison'
+  },
+  {
+    id: 74,
+    name: 'Tyler Love',
+    twitter: 'tyleralove',
+    github: 'tylr',
+    site: 'http://tylr.org/'
+  },
+  {
+    id: 75,
+    name: 'Sam Selikoff',
+    twitter: 'samselikoff',
+    github: 'samselikoff',
+    site: 'http://www.samselikoff.com/'
+  },
+  {
+    id: 76,
+    name: 'William Hart',
+    twitter: 'wlhart',
+    site: 'http://www.williamhart.info/'
+  },
+  {
+    id: 77,
+    name: 'Steve Kane',
+    twitter: 'stv_kn',
+    github: '4South'
+  },
+  {
+    id: 78,
+    name: 'Taras Mankovski',
+    twitter: 'tarasm',
+    github: 'taras'
+  },
+  {
+    id: 79,
+    name: 'Patrick Holloway',
+    twitter: 'digitalpixelpro',
+    github: 'patrickjholloway'
+  },
+  {
+    id: 80,
+    name: 'Wesley Workman',
+    twitter: 'workmanw',
+    github: 'workmanw',
+    site: 'http://www.wesleyworkman.com/'
+  },
+  {
+    id: 81,
+    name: 'Sebastian Seilund',
+    twitter: 'seilund',
+    github: 'sebastianseilund',
+    site: 'http://www.sebastianseilund.com/'
+  },
+  {
+    id: 82,
+    name: 'Alex Speller',
+    twitter: 'alexspeller',
+    github: 'alexspeller',
+    site: 'http://alexspeller.com/'
+  },
+  {
+    id: 83,
+    name: 'Thomas Q. Brady',
+    twitter: 'thomasqbrady',
+    github: 'thomasqbrady',
+    site: 'http://bashmodernquantity.com/'
+  },
+  {
+    id: 84,
+    name: 'Julien Knebel',
+    twitter: 'julienknebel',
+    github: 'jkneb',
+    site: 'http://front-back.com/'
+  },
+  {
+    id: 85,
+    name: 'Jonathan Goldman',
+    twitter: 'jonnii',
+    site: 'http://jonnii.com/'
+  },
+  {
+    id: 86,
+    name: 'Thomas Boyt',
+    twitter: 'thomasABoyt',
+    site: 'http://www.thomasboyt.com/'
+  },
+  {
+    id: 87,
+    name: 'Matthew Rudy Jacobs',
+    twitter: 'MatthewRudy'
+  },
+  {
+    id: 88,
+    name: 'Christopher Gammie',
+    twitter: 'lindyhopchris'
+  },
+  {
+    id: 89,
+    name: 'James Daniels',
+    twitter: 'jamesuriah'
+  },
+  {
+    id: 90,
+    name: 'Dennis Nazarov',
+    twitter: 'Iiterature',
+    github: 'denisnazarov',
+    site: 'http://www.mine.nyc/'
+  },
+  {
+    id: 91,
+    name: 'Roman Shtylman',
+    twitter: 'defunctzombie'
+  },
+  {
+    id: 92,
+    name: 'Kevin Kornemann',
+    twitter: 'kevinkornemann'
+  },
+  {
+    id: 93,
+    name: 'Thomas Herrmann'
+  },
+  {
+    id: 94,
+    name: 'Balint Erdi',
+    twitter: 'baaz',
+    github: 'balinterdi',
+    site: 'http://balinterdi.com'
+  },
+  {
+    id: 95,
+    name: 'Anh-Kiet Ngo'
+  },
+  {
+    id: 96,
+    name: 'Colin Henry'
+  },
+  {
+    id: 97,
+    name: 'Stefan Fochler'
+  },
+  {
+    id: 98,
+    name: 'Sergey Bolshchikov'
+  },
+  {
+    id: 99,
+    name: 'David Adams'
+  },
+  {
+    id: 100,
+    name: 'Jamie White',
+    github: 'jgwhite',
+    twitter: 'jgwhite',
+    site: 'http://jgwhite.co.uk/'
+  },
+  {
+    id: 101,
+    name: 'Christopher Sansone'
+  },
+  {
+    id: 102,
+    name: 'Adam Fortuna',
+    twitter: 'adamfortuna'
+  },
+  {
+    id: 103,
+    name: 'Richard Livsey',
+    twitter: 'rlivsey'
+  },
+  {
+    id: 104,
+    name: 'Eduardo Gutierrez'
+  },
+  {
+    id: 105,
+    name: 'Lin Reid',
+    twitter: 'linstula'
+  },
+  {
+    id: 106,
+    name: 'Rmina Vargas',
+    twitter: 'rsocci'
+  },
+  {
+    id: 107,
+    name: 'Chad Hietala',
+    twitter: 'chadhietala'
+  },
+  {
+    id: 108,
+    name: 'Michael Ribbons',
+    twitter: 'OmnigateIT'
+  },
+  {
+    id: 109,
+    name: 'Ben Gillies',
+    twitter: 'bengillies'
+  },
+  {
+    id: 110,
+    name: 'Andy Appleton',
+    twitter: 'appltn'
+  },
+  {
+    id: 111,
+    name: 'Jason Madsen',
+    twitter: 'jason_madsen'
+  },
+  {
+    id: 112,
+    name: 'Vic Ramon',
+    twitter: 'vicramon'
+  },
+  {
+    id: 113,
+    name: 'Brendan Briggs',
+    twitter: 'bfbriggs'
+  },
+  {
+    id: 114,
+    name: 'Sara Robinson',
+    twitter: 'SRobTweets'
+  },
+  {
+    id: 115,
+    name: 'Ruslan Yakhyaev',
+    twitter: 'ryakh',
+    site: 'http://ruslan.io/'
+  },
+  {
+    id: 116,
+    name: 'Martin Feckie',
+    twitter: 'mfeckie'
+  },
+  {
+    id: 117,
+    name: 'Ken Snyder',
+    twitter: 'yankeeinlondon',
+    site: 'http://ken.net/blog/'
+  },
+  {
+    id: 118,
+    name: 'Lance Harper',
+    twitter: 'royallance',
+    github: 'lanceharper'
+  },
+  {
+    id: 119,
+    name: 'Cory Forsyth',
+    twitter: 'bantic',
+    github: 'bantic',
+    site: 'http://coryforsyth.com/'
+  },
+  {
+    id: 120,
+    name: 'Janessa Det',
+    twitter: 'jandet'
+  },
+  {
+    id: 121,
+    name: 'Estella Madison',
+    twitter: 'chicagoing'
+  },
+  {
+    id: 122,
+    name: 'Heyjin Kim',
+    twitter: 'heyjinkim',
+    site: 'http://heyjinjs.us/'
+  },
+  {
+    id: 123,
+    name: 'Robert Jackson',
+    twitter: 'rwjblue',
+    github: 'rwjblue'
+  },
+  {
+    id: 124,
+    name: 'Edward Faulkner',
+    github: 'ef4'
+  },
+  {
+    id: 125,
+    name: 'John K. Paul',
+    twitter: 'johnkpaul',
+    github: 'johnkpaul'
+  },
+  {
+    id: 126,
+    name: 'Leah Silber',
+    twitter: 'wifelette'
+  },
+  {
+    id: 127,
+    name: 'DeVaris Brown',
+    twitter: 'devarispbrown',
+    site: 'http://thefuriousone.com/'
+  },
+  {
+    id: 129,
+    name: 'Justin Searls',
+    twitter: 'searls'
+  },
+  {
+    id: 130,
+    name: 'Andy Pliszka',
+    twitter: 'AntiTyping'
+  },
+  {
+    id: 131,
+    name: 'Paul Doerwald',
+    twitter: 'pauldoerwald'
+  },
+  {
+    id: 132,
+    name: 'Matteo Depalo',
+    twitter: 'matteodepalo'
+  },
+  {
+    id: 133,
+    name: 'Elte Hupkes',
+    github: 'ElteHupkes',
+    site: 'http://metaphoric.nl/'
+  },
+  {
+    id: 134,
+    name: 'Oscar Lodriguez',
+    site: 'http://oscarlodriguez.nl/'
+  },
+  {
+    id: 135,
+    name: 'Dennis Tel',
+    twitter: 'dennistel90'
+  },
+  {
+    id: 136,
+    name: 'Patrick Mulder'
+  },
+  {
+    id: 137,
+    name: 'MajorBreakfast'
+  },
+  {
+    id: 138,
+    name: 'Charles Lowell',
+    twitter: 'cowboyd'
+  },
+  {
+    id: 139,
+    name: 'Phil Renaud',
+    twitter: 'phil_renaud',
+    github: 'philrenaud',
+    site: 'http://riotindustries.com/'
+  },
+  {
+    id: 140,
+    name: 'Joe Fiorini',
+    twitter: 'joefiorini',
+    github: 'joefiorini',
+    site: 'http://joefiorini.com/'
+  },
+  {
+    id: 141,
+    name: 'Yoran Brondsema',
+    twitter: 'YoranBrondsema',
+    github: 'YoranBrondsema',
+    site: 'http://yoranbrondsema.com/'
+  },
+  {
+    id: 142,
+    name: 'Miguel Madero',
+    github: 'MiguelMadero',
+    site: 'http://miguelmadero.com/'
+  },
+  {
+    id: 143,
+    name: 'Chris Oei',
+    twitter: 'ChrisOei',
+    github: 'chrisoei'
+  },
+  {
+    id: 144,
+    name: 'Lamin Sanneh',
+    github: 'LaminSanneh',
+    twitter: 'LSWebApps',
+    site: 'http://www.lswebapps.com/'
+  },
+  {
+    id: 145,
+    name: 'Jon Gold',
+    github: 'jongd',
+    twitter: 'jongold',
+    site: 'http://www.jon.gd/'
+  },
+  {
+    id: 146,
+    name: 'Marco Otte-Witte',
+    github: 'marcoow',
+    twitter: 'simplelabs',
+    site: 'http://simplabs.com'
+  },
+  {
+    id: 147,
+    name: 'Andy Brown',
+    twitter: 'UBC_founder',
+    site: 'http://thetechcofounder.com/'
+  },
+  {
+    id: 148,
+    name: 'Adolfo Builes',
+    twitter: 'abuiles',
+    site: 'http://blog.abuiles.com'
+  },
+  {
+    id: 149,
+    name: 'Martin Broerse',
+    github: 'broerse'
+  },
+  {
+    id: 150,
+    name: 'Joost de Vries',
+    github: 'joostdevries',
+    twitter: 'joostdevrs',
+    site: 'http://closealert.com'
+  },
+  {
+    id: 151,
+    name: 'Ben Konrath',
+    github: 'benkonrath',
+    site: 'http://bagu.org'
+  },
+  {
+    id: 152,
+    name: 'Sergey Osipov'
+  },
+  {
+    id: 153,
+    name: 'Stanley Stuart',
+    github: 'fivetanley',
+    twitter: 'fivetanley'
+  },
+  {
+    id: 154,
+    name: 'Martin Muñoz',
+    github: 'mmun',
+    twitter: ' _mmun'
+  },
+  {
+    id: 155,
+    name: 'Mitch Lloyd',
+    github: 'mitchlloyd',
+    twitter: 'too_mitch'
+  },
+  {
+    id: 156,
+    name: 'Josh Smith',
+    github: 'JoshSmith',
+    twitter: 'joshsmith'
+  },
+  {
+    id: 157,
+    name: 'Dan McClain',
+    github: 'danmcclain',
+    twitter: '_danmcclain'
+  },
+  {
+    id: 158,
+    name: 'Chase McCarthy',
+    github: 'code0100fun',
+    twitter: 'code0100fun'
+  },
+  {
+    id: 159,
+    name: 'Jonathan Jackson',
+    github: 'rondale-sc',
+    twitter: 'rondale_sc'
+  },
+  {
+    id: 160,
+    name: 'Sean Devine',
+    github: 'barelyknown',
+    twitter: 'barelyknown'
+  },
+  {
+    id: 161,
+    name: 'Jeremy Brown',
+    twitter: 'notmessenger',
+    github: 'notmessenger',
+    site: 'http://www.notmessenger.com/'
+  },
+  {
+    id: 162,
+    name: 'Ken Sin',
+    github: 'ksin'
+  },
+  {
+    id: 163,
+    name: 'Mike Harris',
+    github: 'mharris717'
+  },
+  {
+    id: 164,
+    name: 'Mike Edson',
+    twitter: 'mikeedson',
+    github: 'edson-',
+    site: 'http://www.childrenshospital.org/'
+  },
+  {
+    id: 165,
+    name: 'Lauren Tan',
+    twitter: 'sugarpirate_',
+    github: 'poteto',
+    site: 'https://medium.com/@sugarpirate/',
+    speakerdeck: 'poteto'
+  },
+  {
+    id: 166,
+    name: 'Mike Stanley'
+  },
+  {
+    id: 167,
+    name: 'David McMullen',
+    twitter: 'davecocoa7',
+    github: 'davecocoa'
+  },
+  {
+    id: 168,
+    name: 'Bryan Crotaz',
+    twitter: 'BryanCrotaz',
+    github: 'Twinkletoes',
+    site: 'http://www.silvercurve.co.uk/'
+  },
+  {
+    id: 169,
+    name: 'Nick Blanchet',
+    twitter: 'h55nick',
+    github: 'h55nick',
+    site: 'http://nblanchet.com/'
+  },
+  {
+    id: 170,
+    name: 'Scott Stevenson',
+    twitter: 'scott2211',
+    github: 'scott2211',
+    site: 'http://www.scottstevenson.me/'
+  },
+  {
+    id: 171,
+    name: 'Aaron Chambers',
+    twitter: 'grandazz',
+    github: 'achambers',
+    speakerdeck: 'achambers'
+  },
+  {
+    id: 172,
+    name: 'Mike Hayden',
+    github: 'mickyginger',
+    site: 'http://weareeverywhere.co.uk/news/'
+  },
+  {
+    id: 173,
+    name: 'Thom Langford',
+    twitter: 'ThomLangford',
+    site: 'http://thomlangford.com',
+    slideshare: '44Con'
+  },
+  {
+    id: 174,
+    name: 'Thomas Cowell',
+    twitter: 'thomcowell',
+    site: 'http://eightsquarestudio.com/'
+  },
+  {
+    id: 175,
+    name: 'Martin Pratt',
+    twitter: 'martinrp_',
+    site: 'http://weareeverywhere.co.uk/news/'
+  },
+  {
+    id: 176,
+    name: 'Stuart Harris',
+    twitter: 'stuartharris',
+    github: 'StuartHarris',
+    site: 'http://red-badger.com/blog/author/stuart-harris/'
+  },
+  {
+    id: 177,
+    name: 'Despo Pentara',
+    twitter: 'despo',
+    github: 'despo',
+    slideshare: 'despw'
+  },
+  {
+    id: 178,
+    name: 'Markus Padourek',
+    twitter: 'mpadourek',
+    github: 'Globegitter',
+    site: 'http://sanestack.com/'
+  },
+  {
+    id: 179,
+    name: 'Thomas Marshall',
+    twitter: 'tmrshl',
+    github: 'thomasmarshall',
+    site: 'http://www.thomasmarshall.com/'
+  },
+  {
+    id: 180,
+    name: 'Tom Close',
+    twitter: 'tomclse'
+  },
+  {
+    id: 181,
+    name: 'Miles Tinsley',
+    twitter: 'milestinsley',
+    github: 'milestinsley',
+    site: 'http://milestinsley.com/',
+    speakerdeck: 'milestinsley'
+  },
+  {
+    id: 182,
+    name: 'Joan Mira',
+    twitter: 'gazpachu',
+    github: 'gazpachu',
+    site: 'http://www.gazpachu.com/en'
+  },
+  {
+    id: 183,
+    name: 'Hugh Francis',
+    twitter: '_HHFF',
+    github: 'hhff',
+    site: 'http://hughfrancis.me/'
+  },
+  {
+    id: 184,
+    name: 'Tim Evans',
+    twitter: 'timmyce',
+    github: 'tim-evans'
+  },
+  {
+    id: 185,
+    name: 'Gaurav Munjal',
+    twitter: 'gaurav9576',
+    github: 'gaurav0'
+  },
+  {
+    id: 186,
+    name: 'Nik NyBy',
+    github: 'nikolas'
+  },
+  {
+    id: 187,
+    name: 'Manolo Familia',
+    twitter: 'followmanolo'
+  },
+  {
+    id: 188,
+    name: 'Chris LoPresto',
+    twitter: 'chrislopresto',
+    github: 'chrislopresto',
+    site: 'http://chrislopresto.com/'
+  },
+  {
+    id: 189,
+    name: 'Roger Ruiz',
+    twitter: 'rogeruiz',
+    github: 'rogeruiz',
+    site: 'http://rog.gr/'
+  },
+  {
+    id: 190,
+    name: 'Jake Grinsted',
+    twitter: 'JakeGrinsted',
+    site: 'http://solveitsimply.com/'
+  },
+  {
+    id: 191,
+    name: 'Ivan Vanderbyl ',
+    twitter: 'IvanVanderbyl',
+    github: 'ivanvanderbyl',
+    site: 'http://ivanvanderbyl.com/'
+  },
+  {
+    id: 192,
+    name: 'Steve Klabnik',
+    twitter: 'steveklabnik',
+    github: 'steveklabnik',
+    site: 'http://words.steveklabnik.com/',
+    speakerdeck: 'steveklabnik'
+  },
+  {
+    id: 193,
+    name: 'Oli Griffiths',
+    twitter: 'oligriffiths',
+    github: 'oligriffiths',
+    site: 'http://about.me/oligriffiths',
+    slideshare: 'oligriffiths'
+  },
+  {
+    id: 194,
+    name: 'Michael Madrid',
+    github: 'kagemusha'
+  },
+  {
+    id: 195,
+    name: 'Edgar Calderon',
+    site: 'http://calderas.me/'
+  },
+  {
+    id: 196,
+    name: 'Jeff Lang',
+    twitter: 'jeffplang',
+    github: 'jeffplang',
+    site: 'http://www.phishtracks.com/'
+  },
+  {
+    id: 197,
+    name: 'Amit Schecter',
+    twitter: 'meetamit',
+    site: 'http://two-n.com/'
+  },
+  {
+    id: 198,
+    name: 'Dan Vingo',
+    github: 'dvingo',
+    site: 'http://howdoesthisevn.com/writing'
+  },
+  {
+    id: 199,
+    name: 'Daniel Sudol',
+    github: 'danielspaniel'
+  },
+  {
+    id: 200,
+    name: 'Isaac Ezer',
+    twitter: 'isaacezer',
+    github: 'iezer',
+    site: 'http://isaacezer.com/'
+  },
+  {
+    id: 201,
+    name: 'Venkat Dinavahi',
+    twitter: 'venkatdinavahi',
+    github: 'venkatd'
+  },
+  {
+    id: 202,
+    name: 'Chris Santero',
+    github: 'csantero',
+    site: 'http://simply360.com/'
+  },
+  {
+    id: 203,
+    name: 'Scott Norvell',
+    twitter: 'scottlnorvell'
+  },
+  {
+    id: 204,
+    name: 'Andy Pye'
+  },
+  {
+    id: 205,
+    name: 'Suchit Puri',
+    twitter: 'suchitpuri',
+    github: 'suchitpuri',
+    site: 'http://suchitpuri.com/'
+  },
+  {
+    id: 206,
+    name: 'Matthew White',
+    twitter: 'mattw59',
+    github: 'mattw59'
+  },
+  {
+    id: 207,
+    name: 'Frank Treacy',
+    twitter: 'frank06',
+    github: 'frank06',
+    site: 'http://emberigniter.com/about/'
+  },
+  {
+    id: 208,
+    name: 'Alex DiLiberto',
+    twitter: 'alex_diliberto',
+    github: 'alexdiliberto',
+    site: 'http://alexdiliberto.com'
+  },
+  {
+    id: 209,
+    name: 'Ricardo Mendes',
+    twitter: 'locks',
+    github: 'locks',
+    site: 'http://locks.svbtle.com/'
+  },
+  {
+    name: 'Nicky Thompson',
+    twitter: 'knotnicky ',
+    site: 'http://symphonicknot.com/',
+    id: 210
+  },
+  {
+    name: 'Miguel Camba',
+    twitter: 'miguelcamba',
+    site: 'http://miguelcamba.com/',
+    id: 211
+  },
+  {
+    name: 'Robert Knight',
+    twitter: 'robknight_',
+    github: 'robertknight',
+    site: 'http://robertknight.github.io/',
+    id: 212
+  },
+  {
+    name: 'Nik Wakelin',
+    twitter: 'nikz',
+    github: 'nikz',
+    site: 'http://nikwakelin.com/',
+    id: 213
+  },
+  {
+    name: 'Peter O’Shaughnessy',
+    twitter: 'poshaughnessy',
+    github: 'poshaughnessy',
+    site: 'http://www.peteroshaughnessy.com/',
+    id: 214
+  },
+  {
+    name: 'Deepan Aiyasamy',
+    twitter: 'deepanice',
+    id: 215
+  },
+  {
+    name: 'Vaidas Mykolaitis',
+    twitter: 'codepreneurr',
+    site: 'http://www.codepreneur.io/',
+    id: 216
+  },
+  {
+    name: 'Chris Game',
+    twitter: 'TheGameOf79',
+    id: 217
+  },
+  {
+    name: 'Steve Tyler',
+    twitter: 'stevetyler_uk',
+    site: 'http://steve-tyler.co.uk/',
+    slideshare: 'SteveTyler3',
+    id: 218
+  },
+  {
+    name: 'David Rhys White',
+    twitter: 'davidrhyswhite',
+    github: 'davidrhyswhite',
+    site: 'http://davidrhyswhite.github.io/',
+    id: 219
+  },
+  {
+    name: 'Andrew Faraday',
+    twitter: 'MarmiteJunction',
+    github: 'AJFaraday',
+    site: 'http://www.andrewfaraday.com/',
+    id: 220
+  },
+  {
+    name: 'Melinda Seckington',
+    twitter: 'mseckington',
+    github: 'mseckington',
+    site: 'http://missgeeky.com/',
+    slideshare: 'mseckington',
+    id: 221
+  },
+  {
+    name: 'Sebastian McKenzie',
+    twitter: 'sebmck',
+    github: 'sebmck',
+    site: 'http://sebmck.com/',
+    id: 222
+  },
+  {
+    name: 'Will Raxworthy',
+    twitter: 'willrax',
+    github: 'willrax',
+    site: 'http://blog.willrax.com/',
+    speakerdeck: 'willrax',
+    id: 223
+  },
+  {
+    name: 'Nikos Katsikanis',
+    twitter: 'nikosMaths',
+    id: 224
+  },
+  {
+    name: 'Michael Nutt',
+    twitter: 'michaeln3',
+    github: 'mnutt',
+    site: 'http://nuttnet.net/',
+    id: 225
+  },
+  {
+    name: 'Jonathan Dayton',
+    twitter: 'goDownhillFast',
+    github: 'jondayton',
+    site: 'http://jonathandayton.com/',
+    id: 226
+  },
+  {
+    name: 'David Kerr',
+    twitter: 'Dave_Kerr_',
+    github: 'davek09',
+    site: 'http://www.davekerr.co/',
+    slideshare: 'DavidKerr8',
+    id: 227
+  },
+  {
+    name: 'Philip Poots',
+    twitter: 'pootsbook',
+    github: 'pootsbook',
+    site: 'http://crossingtheruby.com/',
+    slideshare: 'pootsbook',
+    id: 228
+  },
+  {
+    name: 'Max Minkoff',
+    twitter: 'mminkoff',
+    github: 'mminkoff',
+    id: 229
+  },
+  {
+    name: 'Danielle Adams',
+    twitter: 'adamzdanielle',
+    id: 230
+  },
+  {
+    name: 'Hassan Abdel-Rahman',
+    twitter: 'habdelra',
+    github: 'habdelra',
+    id: 231
+  },
+  {
+    name: 'Ray Tiley',
+    twitter: 'raytiley',
+    github: 'raytiley',
+    site: 'http://raytiley.com/',
+    id: 232
+  },
+  {
+    name: 'Justin McNally',
+    twitter: 'j_mcnally',
+    github: 'j-mcnally',
+    site: 'http://www.kohactive.com/',
+    id: 233
+  },
+  {
+    name: 'Tony Coconate',
+    twitter: 'tonycoco',
+    github: 'tonycoco',
+    site: 'http://www.tonycoconate.com/',
+    speakerdeck: 'tonycoco',
+    id: 234
+  },
+  {
+    name: 'Mike Monroe',
+    id: 235
+  },
+  {
+    name: 'Raymond Cox',
+    twitter: 'RaymondCox',
+    github: 'raymondjcox',
+    site: 'https://raymondjcox.com/',
+    id: 236
+  },
+  {
+    name: 'Elad Shahar',
+    twitter: 'Elad',
+    github: 'SaladFork',
+    site: 'https://blog.eladshahar.com/',
+    id: 237
+  },
+  {
+    name: 'Pat O’Callaghan',
+    twitter: 'patocallaghan',
+    github: 'patocallaghan',
+    site: 'http://littleglitch.io/',
+    speakerdeck: 'patocallaghan',
+    id: 238
+  },
+  {
+    name: 'Paddy O’Brien',
+    github: 'paddyobrien',
+    speakerdeck: 'paddyobrien',
+    id: 239
+  },
+  {
+    name: 'Chris Tse',
+    twitter: 'christse',
+    github: 'christse',
+    site: 'http://cardstack.io/',
+    speakerdeck: 'christse',
+    id: 240
+  },
+  {
+    name: 'Mike North',
+    twitter: 'michaellnorth',
+    github: 'mike-north',
+    speakerdeck: 'truenorth',
+    slideshare: 'mikelnorth',
+    id: 241
+  },
+  {
+    name: 'Jay Phelps',
+    twitter: '_jayphelps',
+    github: 'jayphelps',
+    site: 'http://jayphelps.com/',
+    speakerdeck: 'jayphelps',
+    slideshare: 'jayphelps',
+    id: 242
+  },
+  {
+    name: 'Estelle DeBlois',
+    twitter: 'edeblois',
+    github: 'brzpegasus',
+    site: 'https://dockyard.com/',
+    speakerdeck: 'brzpegasus',
+    id: 243
+  },
+  {
+    name: 'John Kleinschmidt',
+    twitter: 'jkleinsc',
+    github: 'jkleinsc',
+    site: 'http://resplendentdev.com/',
+    id: 244
+  },
+  {
+    name: 'Nathan Hammond',
+    twitter: 'nathanhammond',
+    github: 'nathanhammond',
+    site: 'http://www.nathanhammond.com/',
+    slideshare: 'NathanHammond4',
+    id: 245
+  },
+  {
+    name: 'Steve Trevathan',
+    twitter: 'strevat',
+    site: 'https://dockyard.com/',
+    speakerdeck: 'kidfribble',
+    id: 246
+  },
+  {
+    name: 'Godfrey Chan',
+    twitter: 'chancancode',
+    github: 'chancancode',
+    site: 'https://about.me/godfreychan',
+    speakerdeck: 'chancancode',
+    slideshare: 'godfreykfc',
+    id: 247
+  },
+  {
+    name: 'Chris Henn',
+    twitter: 'cwhnn',
+    github: 'chnn',
+    site: 'http://chrishenn.net/writing/',
+    speakerdeck: 'chnn',
+    id: 248
+  },
+  {
+    name: 'Bryan Langslet',
+    twitter: 'blangslet',
+    github: 'blangslet',
+    site: 'http://blangslet.com/',
+    speakerdeck: 'blangslet',
+    id: 249
+  },
+  {
+    name: 'Brittany Storoz',
+    twitter: 'brittanystoroz',
+    github: 'brittanystoroz',
+    id: 250
+  },
+  {
+    name: 'Steve Kinney',
+    twitter: 'stevekinney',
+    github: 'stevekinney',
+    site: 'http://www.stevekinney.net/',
+    speakerdeck: 'stevekinney',
+    slideshare: 'stevekinney',
+    id: 251
+  },
+  {
+    name: 'Chris Eppstein',
+    twitter: 'chriseppstein',
+    github: 'chriseppstein',
+    site: 'http://chriseppstein.github.io/',
+    slideshare: 'chriseppstein',
+    id: 252
+  },
+  {
+    name: 'Jordan Hawker',
+    twitter: 'JordanHawker',
+    github: 'elwayman02',
+    site: 'http://www.jordanhawker.com/',
+    company: 'CheckMate',
+    id: 253
+  },
+  {
+    name: 'Benjamin Fleischer',
+    twitter: 'hazula',
+    github: 'bf4',
+    site: 'http://www.benjaminfleischer.com',
+    id: 254
+  },
+  {
+    name: 'Jimmy Lauzau',
+    twitter: 'jimmay5469',
+    github: 'jimmay5469',
+    site: 'http://jimmylauzau.com/',
+    id: 255
+  },
+  {
+    name: 'Mike Pastore',
+    twitter: 'mwpmaybe',
+    site: 'http://perlkour.pl/',
+    id: 256
+  },
+  {
+    name: 'Alisdair McDiarmid',
+    twitter: 'alisdair',
+    github: 'alisdair',
+    site: 'http://alisdair.mcdiarmid.org/',
+    id: 257
+  },
+  {
+    name: 'Ben Holmes',
+    twitter: 'bdvholmes',
+    github: 'bdvholmes',
+    site: 'http://benholmes.uk',
+    id: 258
+  },
+  {
+    name: 'Paul Cowan',
+    twitter: 'dagda1',
+    site: 'http://www.thesoftwaresimpleton.com/',
+    id: 259
+  },
+  {
+    name: 'Geoff Schorkopf',
+    twitter: 'gschork',
+    github: 'gschorkopf',
+    site: 'https://www.bignerdranch.com/about-us/nerds/geoffrey-schorkopf/',
+    id: 260
+  },
+  {
+    name: 'Stefan Wintermeyer',
+    twitter: 'wintermeyer',
+    github: 'wintermeyer',
+    site: 'http://www.amooma.de/',
+    id: 261
+  },
+  {
+    name: 'Dave Wasmer',
+    twitter: 'davewasmer',
+    github: 'davewasmer',
+    site: 'http://www.davewasmer.com/',
+    id: 262
+  },
+  {
+    name: 'Matthew Sumner',
+    twitter: 'MatthewMSumner',
+    github: 'MattMSumner',
+    site: 'http://appallingfarrago.com/',
+    id: 263
+  },
+  {
+    name: 'Katherine Tornwall',
+    twitter: 'ktornwall',
+    github: 'ktornwall',
+    site: 'https://teamgaslight.com/people/katherine-tornwall',
+    id: 264
+  },
+  {
+    name: 'Kuba Niechcial',
+    twitter: 'jniechcial',
+    github: 'jniechcial',
+    site: 'https://www.netguru.co/team/kuba-n',
+    id: 265
+  },
+  {
+    name: 'Sean Doyle',
+    github: 'seanpdoyle',
+    site: 'http://builtbychief.com/',
+    id: 266
+  },
+  {
+    name: 'Omar Ismail',
+    twitter: 'OmarIsmail_io',
+    site: 'http://www.seekingintellect.com/',
+    id: 267
+  },
+  {
+    name: 'John Fisher',
+    github: 'jnfisher',
+    site: 'http://spin.atomicobject.com/author/john-fisher/',
+    id: 268
+  },
+  {
+    name: 'Brent Schooley',
+    twitter: 'brentschooley',
+    github: 'brentschooley',
+    site: 'https://www.twilio.com/blog/author/brent-schooley',
+    id: 269
+  },
+  {
+    name: 'Philippe de Ryck',
+    id: 270
+  },
+  {
+    name: 'Erik Hanchett',
+    twitter: 'ErikCH',
+    github: 'ErikCH',
+    site: 'http://www.programwitherik.com/',
+    id: 271
+  },
+  {
+    name: 'Dan Hutchinson',
+    twitter: 'danwhutchinson',
+    github: 'danielhutchinson',
+    site: 'http://www.hutchinson.io/',
+    id: 272
+  },
+  {
+    name: 'Damien White',
+    site: 'https://semaphoreci.com/community/authors/visoft',
+    id: 273
+  },
+  {
+    name: 'Ryan Abel',
+    twitter: 'ryan_and_abel',
+    site: 'http://spin.atomicobject.com/author/abel/',
+    id: 274
+  },
+  {
+    name: 'Michael Klein',
+    id: 275
+  },
+  {
+    name: 'Andreas Hubel',
+    id: 276
+  },
+  {
+    name: 'Ulises Ramirez-Roche',
+    id: 277
+  },
+  {
+    name: 'Santiago Pastorino',
+    twitter: 'spastorino',
+    github: 'spastorino',
+    id: 278
+  },
+  {
+    name: 'Marten Schilstra',
+    id: 279
+  },
+  {
+    name: 'Oleksii Rudenko',
+    github: 'OrKoN',
+    site: 'https://60devs.com/',
+    id: 280
+  },
+  {
+    name: 'Andy Borsz',
+    id: 281
+  },
+  {
+    name: 'Rômulo Machado',
+    twitter: 'romulomachado_',
+    github: 'romulomachado',
+    site: 'http://romulomachado.github.io/',
+    id: 282
+  },
+  {
+    name: 'Jeff Jewiss',
+    github: 'jeffjewiss',
+    id: 283
+  },
+  {
+    name: 'Jon Black',
+    github: 'jonblack',
+    twitter: 'hmblcodr',
+    site: 'http://blog.humblecoder.com/',
+    id: 284
+  },
+  {
+    name: 'Chris Ball',
+    id: 285
+  },
+  {
+    name: 'Micah Woods',
+    twitter: 'mwoods79',
+    id: 286
+  },
+  {
+    name: 'Adam Niedzielski',
+    twitter: 'adamniedzielski',
+    id: 287
+  },
+  {
+    name: 'Josh Clayton',
+    twitter: 'joshuaclayton',
+    site: 'joshuaclayton.me',
+    id: 288
+  },
+  {
+    name: 'James Futhey',
+    github: 'kidGodzilla',
+    id: 289
+  },
+  {
+    name: 'Travis Hoover',
+    twitter: 'Thoov',
+    id: 290
+  },
+  {
+    name: 'Leo Hernandez',
+    twitter: 'leojh',
+    id: 291
+  },
+  {
+    name: 'Matt Rozema',
+    id: 292
+  },
+  {
+    name: 'John Ruble',
+    id: 293
+  },
+  {
+    name: 'David Strauß',
+    id: 294,
+    twitter: 'stravid'
+  },
+  {
+    name: 'Damian Senn',
+    id: 295,
+    twitter: 'topaxi'
+  },
+  {
+    name: 'Jason Cummings',
+    id: 296,
+    github: 'jsncmgs1'
+  },
+  {
+    name: 'Mark Haylock',
+    id: 297
+  },
+  {
+    name: 'Chris Thoburn',
+    id: 298,
+    twitter: 'runspired',
+    github: 'runspired',
+    site: 'https://blog.runspired.com/'
+  },
+  {
+    name: 'Matic Jurglic',
+    twitter: 'matixmatix',
+    github: 'matixmatix',
+    site: 'http://codeandtechno.com',
+    id: 299
+  },
+  {
+    name: 'Matt McKenna',
+    id: 300,
+    github: 'mtmckenna'
+  },
+  {
+    name: 'Vikram Narayan',
+    id: 301,
+    twitter: 'vikramsnarayan',
+    github: 'vikram-s-narayan',
+    site: 'http://www.twitter.com/vikramsnarayan'
+  },
+  {
+    name: 'Zoltan Debre',
+    id: 302,
+    twitter: 'szines',
+    github: 'szines',
+    site: 'http://zoltan.nz'
+  },
+  {
+    name: 'David Tang',
+    id: 303,
+    twitter: 'skaterdav85',
+    github: 'skaterdav85',
+    site: 'http://thejsguy.com'
+  },
+  {
+    name: 'Felix Rieseberg',
+    id: 304
+  },
+  {
+    name: 'Mattia Gheda',
+    id: 305
+  },
+  {
+    name: 'Ryan Tablada',
+    id: 306,
+    twitter: 'ryantablada'
+  },
+  {
+    name: 'Brendan O\'Hara',
+    id: 307,
+    twitter: 'brendanohara'
+  },
+  {
+    name: 'Karol Galanciak',
+    id: 308,
+    twitter: 'azdaroth'
+  },
+  {
+    name: 'Tracy Lee',
+    id: 309,
+    twitter: 'ladyleet'
+  },
+  {
+    name: 'Dennis Qian',
+    id: 310,
+    twitter: 'dennis_qian'
+  },
+  {
+    name: 'Todd Jordan',
+    id: 311,
+    twitter: 'tddjordan'
+  }
+];

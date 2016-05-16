@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('books');
   this.route('recipes');
   this.route('contribute');
+  this.route('people');
 });
 
 export default Router;
