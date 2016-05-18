@@ -4,10 +4,7 @@ export default JSONAPISerializer.extend({
   normalize(modelClass, hash) {
     // normalize authors relationship
     let authorIds = hash.attributes.authors;
-    let people = [];
-    for (let author of authorIds) {
-      people.push({type: 'person', id: author});
-    }
+    let people = authorIds.map(author => ({ type: 'person', id: author }));
     hash.relationships = {
       authors: { data: people }
     };
