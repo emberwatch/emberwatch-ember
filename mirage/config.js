@@ -13,6 +13,11 @@ export default function() {
     return schema.person.all();
   });
 
+  this.get('people/:id', (schema, request) => {
+    let id = request.params.id;
+    return schema.person.find(id);
+  });
+
   this.get('/books', (schema)=> {
     return schema.book.all();
   });

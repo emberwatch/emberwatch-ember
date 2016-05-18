@@ -4,6 +4,7 @@ import attr from 'ember-data/attr';
 export default Model.extend({
   name: attr('string'),
   github: attr('string'),
+  slack: attr('string'),
   twitter: attr('string'),
   speakerdeck: attr('string'),
   slideshare: attr('string'),
