@@ -1,1903 +1,2380 @@
 export default [
   {
-    id: 1,
+    oldId: 1,
+    id: 'wycats',
     name: 'Yehuda Katz',
     github: 'wycats',
+    slack: 'wycats',
     twitter: 'wycats',
     speakerdeck: 'wycats',
     site: 'http://yehudakatz.com/',
     company: 'Tilde'
   },
   {
-    id: 2,
+    oldId: 2,
+    id: 'tomdale',
     name: 'Tom Dale',
     github: 'tomdale',
+    slack: 'tomdale',
     twitter: 'tomdale',
     speakerdeck: 'tomdale',
     site: 'http://tomdale.net/',
     company: 'Tilde'
   },
   {
-    id: 3,
+    oldId: 3,
+    id: 'wagenet',
     name: 'Peter Wagenet',
     github: 'wagenet',
+    slack: 'wagenet',
     twitter: 'wagenet',
     slideshare: 'pwagenet',
     site: 'http://www.emberist.com/',
     company: 'Tilde'
   },
   {
-    id: 4,
+    oldId: 4,
+    id: 'lukemelia',
     name: 'Luke Melia',
     twitter: 'lukemelia',
     github: 'lukemelia',
+    slack: 'lukemelia',
     speakerdeck: 'lukemelia',
     site: 'http://www.lukemelia.com/',
     company: 'Yapp'
   },
   {
-    id: 5,
+    oldId: 5,
+    id: '5',
     name: 'Mark Mansour'
   },
   {
-    id: 6,
+    oldId: 6,
+    id: '6',
     name: 'Garret Alfert'
   },
   {
-    id: 7,
+    oldId: 7,
+    id: 'trek',
     name: 'Trek Glowacki',
     twitter: 'trek',
     github: 'trek',
+    slack: 'trek',
     site: 'http://trek.github.com',
     company: 'Groupon Engineering'
   },
   {
-    id: 8,
+    oldId: 8,
+    id: 'leepfrog',
     name: 'Andy Leeper',
     github: 'leepfrog',
+    slack: 'leepfrog',
     company: 'Mochaleaf'
   },
   {
-    id: 9,
+    oldId: 9,
+    id: 'raycohen',
     name: 'Ray Cohen',
     github: 'raycohen',
+    slack: 'raycohen',
     twitter: 'raycohen',
     site: 'http://raycohen.com'
   },
   {
-    id: 10,
+    oldId: 10,
+    id: 'dgeb',
     name: 'Dan Gebhardt',
     github: 'dgeb',
+    slack: 'dgeb',
     twitter: 'dgeb',
     site: 'http://www.cerebris.com/blog/'
   },
   {
-    id: 11,
+    oldId: 11,
+    id: 'toranb',
     name: 'Toran Billups',
     github: 'toranb',
+    slack: 'toranb',
     twitter: 'toranb',
     site: 'http://www.toranbillups.com/'
   },
   {
-    id: 12,
+    oldId: 12,
+    id: 'crofty',
     name: 'James Croft',
     github: 'crofty',
+    slack: 'crofty',
     twitter: 'james_croft',
     site: 'http://matchingnotes.com/'
   },
   {
-    id: 13,
+    oldId: 13,
+    id: '13',
     name: 'Tony Sherbondy'
   },
   {
-    id: 14,
+    oldId: 14,
+    id: 'mutewinter',
     name: 'Jeremy Mack',
     github: 'mutewinter',
+    slack: 'mutewinter',
     twitter: 'mutewinter',
     site: 'http://pileofturtles.com/'
   },
   {
-    id: 15,
+    oldId: 15,
+    id: 'cmeiklejohn',
     name: 'Christopher Meiklejohn',
     twitter: 'cmeik',
     github: 'cmeiklejohn',
+    slack: 'cmeiklejohn',
     site: 'http://christophermeiklejohn.com/'
   },
   {
-    id: 16,
+    oldId: 16,
+    id: 'commadelimited',
     name: 'Andy Matthews',
     twitter: 'commadelimited',
     github: 'commadelimited',
+    slack: 'commadelimited',
     site: 'http://andymatthews.net/'
   },
   {
-    id: 17,
+    oldId: 17,
+    id: 'escalant3',
     name: 'Diego Muñoz Escalante',
     github: 'escalant3',
+    slack: 'escalant3',
     twitter: 'escalant3',
     site: 'http://about.me/escalant3'
   },
   {
-    id: 18,
+    oldId: 18,
+    id: 'joachimhs',
     name: 'Joachim Haagen Skeie',
     github: 'joachimhs',
+    slack: 'joachimhs',
     twitter: 'joachimhs',
     site: 'http://haagen.name/'
   },
   {
-    id: 19,
+    oldId: 19,
+    id: 'drewschrauf',
     name: 'Drew Schrauf',
     github: 'drewschrauf',
+    slack: 'drewschrauf',
     twitter: 'drewschrauf',
     site: 'http://drewschrauf.com/'
   },
   {
-    id: 20,
+    oldId: 20,
+    id: 'twinturbo',
     name: 'Adam Hawkins',
     github: 'twinturbo',
+    slack: 'twinturbo',
     twitter: 'adman65',
     site: 'http://broadcastingadam.com/'
   },
   {
-    id: 21,
+    oldId: 21,
+    id: 'inkredabull',
     name: 'Anthony Bull',
     github: 'inkredabull',
+    slack: 'inkredabull',
     twitter: 'inkredabull',
     site: 'http://anthonybull.com/'
   },
   {
-    id: 22,
+    oldId: 22,
+    id: 'twbrandt',
     name: 'Tom Brandt',
     twitter: 'twbrandt',
     github: 'twbrandt',
+    slack: 'twbrandt',
     site: 'http://twbrandt.github.com'
   },
   {
-    id: 23,
+    oldId: 23,
+    id: 'topfunky',
     name: 'Geoffrey Grosenbach',
     twitter: 'topfunky',
     github: 'topfunky',
+    slack: 'topfunky',
     site: 'https://peepcode.com/'
   },
   {
-    id: 24,
+    oldId: 24,
+    id: 'noelrappin',
     name: 'Noel Rappin',
     twitter: 'noelrap',
     github: 'noelrappin',
+    slack: 'noelrappin',
     site: 'http://www.noelrappin.com/'
   },
   {
-    id: 25,
+    oldId: 25,
+    id: 'm-bodmer',
     name: 'Marc Bodmer',
     twitter: 'marcbodmer',
     github: 'm-bodmer',
+    slack: 'm-bodmer',
     site: 'http://www.mbodmer.com/'
   },
   {
-    id: 26,
+    oldId: 26,
+    id: '26',
     name: 'Benoît Lemoine',
     twitter: 'benoit_lemoine',
     github: 'blemoine'
   },
   {
-    id: 27,
+    oldId: 27,
+    id: '27',
     name: 'Mathieu Breton',
     twitter: 'MatBreton',
     github: 'mbreton'
   },
   {
-    id: 28,
+    oldId: 28,
+    id: '28',
     name: 'Jeff Atwood',
     twitter: 'codinghorror',
     site: 'http://www.codinghorror.com/'
   },
   {
-    id: 29,
+    oldId: 29,
+    id: '29',
     name: 'Brian Cardarella',
     site: 'http://dockyard.com/'
   },
   {
-    id: 30,
+    oldId: 30,
+    id: '30',
     name: 'Mads Kristensen',
     site: 'http://madskristensen.net/'
   },
   {
-    id: 31,
+    oldId: 31,
+    id: 'igorT',
     name: 'Igor Terzic',
     twitter: 'terzicigor',
     github: 'igorT',
+    slack: 'igorT',
     site: 'http://terzicigor.com/'
   },
   {
-    id: 32,
+    oldId: 32,
+    id: '32',
     name: 'Jo Liss',
     site: 'http://www.solitr.com/blog/'
   },
   {
-    id: 33,
+    oldId: 33,
+    id: 'krisselden',
     name: 'Kristofor Selden',
     twitter: 'krisselden',
     github: 'krisselden',
+    slack: 'krisselden',
     site: 'http://krisselden.com/'
   },
   {
-    id: 34,
+    oldId: 34,
+    id: '34',
     name: 'Justin Giancola'
   },
   {
-    id: 35,
+    oldId: 35,
+    id: '35',
     name: 'Ryan Bates',
     site: 'http://railscasts.com'
   },
   {
-    id: 36,
+    oldId: 36,
+    id: '36',
     name: 'Rey Bango',
     twitter: 'reybango',
     site: 'http://blog.reybango.com/'
   },
   {
-    id: 37,
+    oldId: 37,
+    id: '37',
     name: 'Lukas Zielinkski',
     site: 'http://www.lukaszielinski.de/'
   },
   {
-    id: 38,
+    oldId: 38,
+    id: '38',
     name: 'Peter Bergstrom'
   },
   {
-    id: 39,
+    oldId: 39,
+    id: '39',
     name: 'Erik Bryn',
     twitter: 'ebryn',
     site: 'http://erikbryn.com'
   },
   {
-    id: 40,
+    oldId: 40,
+    id: '40',
     name: 'Gordon L. Hempton',
     site: 'http://codebrief.com/'
   },
   {
-    id: 41,
+    oldId: 41,
+    id: 'jessecravens',
     name: 'Jesse Cravens',
     github: 'jessecravens',
+    slack: 'jessecravens',
     twitter: 'jdcravens',
     site: 'http://jessecravens.com/'
   },
   {
-    id: 42,
+    oldId: 42,
+    id: '42',
     name: 'José Mota',
     twitter: 'josemotanet',
     site: 'http://josemota.net/'
   },
   {
-    id: 43,
+    oldId: 43,
+    id: '43',
     name: 'Ryan Florence',
     twitter: 'ryanflorence',
     site: 'http://ryanflorence.com/'
   },
   {
-    id: 44,
+    oldId: 44,
+    id: '44',
     name: 'Mark Bates',
     site: 'http://metabates.com/'
   },
   {
-    id: 45,
+    oldId: 45,
+    id: '45',
     name: 'Alex Matchneer',
     twitter: 'machty',
     site: 'http://alexmatchneer.com/'
   },
   {
-    id: 46,
+    oldId: 46,
+    id: '46',
     name: 'Benjamin Rhodes'
   },
   {
-    id: 47,
+    oldId: 47,
+    id: '47',
     name: 'Gabriel Grant',
     twitter: 'gabrielmgrant',
     site: 'http://gabrielgrant.ca',
     github: 'gabrielgrant'
   },
   {
-    id: 49,
+    oldId: 49,
+    id: 'ryanto',
     name: 'Ryan Toronto',
     github: 'ryanto',
+    slack: 'ryanto',
     site: 'http://ryanto.github.io/'
   },
   {
-    id: 50,
+    oldId: 50,
+    id: 'KasperTidemann',
     name: 'Kasper Tidemann',
     twitter: 'KasperTidemann',
     github: 'KasperTidemann',
+    slack: 'KasperTidemann',
     site: 'http://www.kaspertidemann.com/'
   },
   {
-    id: 51,
+    oldId: 51,
+    id: 'justin808',
     name: 'Justin Gordon',
     twitter: 'railsonmaui',
     github: 'justin808',
+    slack: 'justin808',
     site: 'http://www.railsonmaui.com/'
   },
   {
-    id: 52,
+    oldId: 52,
+    id: 'twokul',
     name: 'Alex Navasardyan',
     twitter: 'twokul',
     github: 'twokul',
+    slack: 'twokul',
     site: 'http://navasardyan.net/'
   },
   {
-    id: 53,
+    oldId: 53,
+    id: 'gilesbowkett',
     name: 'Giles Bowkett',
     twitter: 'gilesgoatboy',
     github: 'gilesbowkett',
+    slack: 'gilesbowkett',
     site: 'http://gilesbowkett.blogspot.co.uk/'
   },
   {
-    id: 54,
+    oldId: 54,
+    id: 'stefanpenner',
     name: 'Stefan Penner',
     twitter: 'stefanpenner',
     github: 'stefanpenner',
+    slack: 'stefanpenner',
     site: 'http://iamstef.net/'
   },
   {
-    id: 55,
+    oldId: 55,
+    id: 'mikegrassotti',
     name: 'Michael Grassotti',
     twitter: 'mgrassotti',
     github: 'mikegrassotti',
+    slack: 'mikegrassotti',
     site: 'http://mikegrassotti.github.io/'
   },
   {
-    id: 56,
+    oldId: 56,
+    id: 'domenic',
     name: 'Domenic Denicola',
     twitter: 'domenic',
     github: 'domenic',
+    slack: 'domenic',
     site: 'http://domenicdenicola.com/'
   },
   {
-    id: 57,
+    oldId: 57,
+    id: 'mixonic',
     name: 'Matthew Beale',
     twitter: 'mixonic',
     github: 'mixonic',
+    slack: 'mixonic',
     site: 'http://madhatted.com/'
   },
   {
-    id: 58,
+    oldId: 58,
+    id: 'jeffreybiles',
     name: 'Jeffrey Biles',
     twitter: 'jeffreybiles',
     github: 'jeffreybiles',
+    slack: 'jeffreybiles',
     site: 'http://jeffreybiles.com/'
   },
   {
-    id: 59,
+    oldId: 59,
+    id: 'jamesarosen',
     name: 'James A Rosen',
     twitter: 'jamesarosen',
     github: 'jamesarosen',
+    slack: 'jamesarosen',
     site: 'http://jamesarosen.com/'
   },
   {
-    id: 60,
+    oldId: 60,
+    id: 'kategengler',
     name: 'Katie Gengler',
     twitter: 'katiegengler',
     github: 'kategengler',
+    slack: 'kategengler',
     site: 'http://codeallday.com/',
     speakerdeck: 'katiegengler'
   },
   {
-    id: 61,
+    oldId: 61,
+    id: 'cavneb',
     name: 'Eric Berry',
     twitter: 'cavneb',
     github: 'cavneb',
+    slack: 'cavneb',
     site: 'http://coderberry.me/'
   },
   {
-    id: 62,
+    oldId: 62,
+    id: 'tchak',
     name: 'Paul Chavard',
     twitter: 'tchak13',
     github: 'tchak',
+    slack: 'tchak',
     site: 'http://tchak.net/'
   },
   {
-    id: 63,
+    oldId: 63,
+    id: 'eviltrout',
     name: 'Robin Ward',
     twitter: 'evil_trout',
     github: 'eviltrout',
+    slack: 'eviltrout',
     site: 'http://eviltrout.com/'
   },
   {
-    id: 64,
+    oldId: 64,
+    id: 'jzajpt',
     name: 'Jiří Zajpt',
     twitter: 'jzajpt',
     github: 'jzajpt',
+    slack: 'jzajpt',
     site: 'http://jzajpt.github.io/'
   },
   {
-    id: 65,
+    oldId: 65,
+    id: 'dmathieu',
     name: 'Damien Mathieu',
     github: 'dmathieu',
+    slack: 'dmathieu',
     twitter: 'https://twitter.com/dmathieu',
     site: 'http://dmathieu.com/'
   },
   {
-    id: 66,
+    oldId: 66,
+    id: 'bradleypriest',
     name: 'Bradley Priest',
     twitter: 'bradleypriest',
     github: 'bradleypriest',
+    slack: 'bradleypriest',
     site: 'http://bradleypriest.com'
   },
   {
-    id: 67,
+    oldId: 67,
+    id: 'karlguillotte',
     name: 'Karl Guillotte',
     twitter: 'karlguillotte',
     github: 'karlguillotte',
+    slack: 'karlguillotte',
     site: 'http://about.me/karl.guillotte'
   },
   {
-    id: 68,
+    oldId: 68,
+    id: 'remchi',
     name: 'Rem Zolotykh',
     twitter: 'remzolotykh',
     github: 'remchi',
+    slack: 'remchi',
     site: 'http://remchi.me/'
   },
   {
-    id: 69,
+    oldId: 69,
+    id: 'tehviking',
     name: 'Brandon Hays',
     twitter: 'tehviking',
     github: 'tehviking',
+    slack: 'tehviking',
     site: 'http://brandonhays.com/blog/'
   },
   {
-    id: 70,
+    oldId: 70,
+    id: 'andremalan',
     name: 'Andre Malan',
     twitter: 'ramcio',
     github: 'andremalan',
+    slack: 'andremalan',
     site: 'http://andremalan.net/'
   },
   {
-    id: 71,
+    oldId: 71,
+    id: '71',
     name: 'Irvin Zhan',
     twitter: 'IrvinZhan',
     github: 'izhan'
   },
   {
-    id: 72,
+    oldId: 72,
+    id: 'gavinjoyce',
     name: 'Gavin Joyce',
     twitter: 'gavinjoyce',
     github: 'gavinjoyce',
+    slack: 'gavinjoyce',
     site: 'http://www.gavinjoyce.com/'
   },
   {
-    id: 73,
+    oldId: 73,
+    id: 'jrallison',
     name: 'John Allison',
     twitter: 'jrallison',
     github: 'jrallison',
+    slack: 'jrallison',
     site: 'https://medium.com/@jrallison'
   },
   {
-    id: 74,
+    oldId: 74,
+    id: 'tylr',
     name: 'Tyler Love',
     twitter: 'tyleralove',
     github: 'tylr',
+    slack: 'tylr',
     site: 'http://tylr.org/'
   },
   {
-    id: 75,
+    oldId: 75,
+    id: 'samselikoff',
     name: 'Sam Selikoff',
     twitter: 'samselikoff',
     github: 'samselikoff',
+    slack: 'samselikoff',
     site: 'http://www.samselikoff.com/'
   },
   {
-    id: 76,
+    oldId: 76,
+    id: '76',
     name: 'William Hart',
     twitter: 'wlhart',
     site: 'http://www.williamhart.info/'
   },
   {
-    id: 77,
+    oldId: 77,
+    id: '77',
     name: 'Steve Kane',
     twitter: 'stv_kn',
     github: '4South'
   },
   {
-    id: 78,
+    oldId: 78,
+    id: '78',
     name: 'Taras Mankovski',
     twitter: 'tarasm',
     github: 'taras'
   },
   {
-    id: 79,
+    oldId: 79,
+    id: '79',
     name: 'Patrick Holloway',
     twitter: 'digitalpixelpro',
     github: 'patrickjholloway'
   },
   {
-    id: 80,
+    oldId: 80,
+    id: 'workmanw',
     name: 'Wesley Workman',
     twitter: 'workmanw',
     github: 'workmanw',
+    slack: 'workmanw',
     site: 'http://www.wesleyworkman.com/'
   },
   {
-    id: 81,
+    oldId: 81,
+    id: 'sebastianseilund',
     name: 'Sebastian Seilund',
     twitter: 'seilund',
     github: 'sebastianseilund',
+    slack: 'sebastianseilund',
     site: 'http://www.sebastianseilund.com/'
   },
   {
-    id: 82,
+    oldId: 82,
+    id: 'alexspeller',
     name: 'Alex Speller',
     twitter: 'alexspeller',
     github: 'alexspeller',
+    slack: 'alexspeller',
     site: 'http://alexspeller.com/'
   },
   {
-    id: 83,
+    oldId: 83,
+    id: 'thomasqbrady',
     name: 'Thomas Q. Brady',
     twitter: 'thomasqbrady',
     github: 'thomasqbrady',
+    slack: 'thomasqbrady',
     site: 'http://bashmodernquantity.com/'
   },
   {
-    id: 84,
+    oldId: 84,
+    id: 'jkneb',
     name: 'Julien Knebel',
     twitter: 'julienknebel',
     github: 'jkneb',
+    slack: 'jkneb',
     site: 'http://front-back.com/'
   },
   {
-    id: 85,
+    oldId: 85,
+    id: '85',
     name: 'Jonathan Goldman',
     twitter: 'jonnii',
     site: 'http://jonnii.com/'
   },
   {
-    id: 86,
+    oldId: 86,
+    id: '86',
     name: 'Thomas Boyt',
     twitter: 'thomasABoyt',
     site: 'http://www.thomasboyt.com/'
   },
   {
-    id: 87,
+    oldId: 87,
+    id: '87',
     name: 'Matthew Rudy Jacobs',
     twitter: 'MatthewRudy'
   },
   {
-    id: 88,
+    oldId: 88,
+    id: '88',
     name: 'Christopher Gammie',
     twitter: 'lindyhopchris'
   },
   {
-    id: 89,
+    oldId: 89,
+    id: '89',
     name: 'James Daniels',
     twitter: 'jamesuriah'
   },
   {
-    id: 90,
+    oldId: 90,
+    id: 'denisnazarov',
     name: 'Dennis Nazarov',
     twitter: 'Iiterature',
     github: 'denisnazarov',
+    slack: 'denisnazarov',
     site: 'http://www.mine.nyc/'
   },
   {
-    id: 91,
+    oldId: 91,
+    id: '91',
     name: 'Roman Shtylman',
     twitter: 'defunctzombie'
   },
   {
-    id: 92,
+    oldId: 92,
+    id: '92',
     name: 'Kevin Kornemann',
     twitter: 'kevinkornemann'
   },
   {
-    id: 93,
+    oldId: 93,
+    id: '93',
     name: 'Thomas Herrmann'
   },
   {
-    id: 94,
+    oldId: 94,
+    id: 'balinterdi',
     name: 'Balint Erdi',
     twitter: 'baaz',
     github: 'balinterdi',
+    slack: 'balinterdi',
     site: 'http://balinterdi.com'
   },
   {
-    id: 95,
+    oldId: 95,
+    id: '95',
     name: 'Anh-Kiet Ngo'
   },
   {
-    id: 96,
+    oldId: 96,
+    id: '96',
     name: 'Colin Henry'
   },
   {
-    id: 97,
+    oldId: 97,
+    id: '97',
     name: 'Stefan Fochler'
   },
   {
-    id: 98,
+    oldId: 98,
+    id: '98',
     name: 'Sergey Bolshchikov'
   },
   {
-    id: 99,
+    oldId: 99,
+    id: '99',
     name: 'David Adams'
   },
   {
-    id: 100,
+    oldId: 100,
+    id: 'jgwhite',
     name: 'Jamie White',
     github: 'jgwhite',
+    slack: 'jgwhite',
     twitter: 'jgwhite',
     site: 'http://jgwhite.co.uk/'
   },
   {
-    id: 101,
+    oldId: 101,
+    id: '101',
     name: 'Christopher Sansone'
   },
   {
-    id: 102,
+    oldId: 102,
+    id: '102',
     name: 'Adam Fortuna',
     twitter: 'adamfortuna'
   },
   {
-    id: 103,
+    oldId: 103,
+    id: '103',
     name: 'Richard Livsey',
     twitter: 'rlivsey'
   },
   {
-    id: 104,
+    oldId: 104,
+    id: '104',
     name: 'Eduardo Gutierrez'
   },
   {
-    id: 105,
+    oldId: 105,
+    id: '105',
     name: 'Lin Reid',
     twitter: 'linstula'
   },
   {
-    id: 106,
+    oldId: 106,
+    id: '106',
     name: 'Rmina Vargas',
     twitter: 'rsocci'
   },
   {
-    id: 107,
+    oldId: 107,
+    id: '107',
     name: 'Chad Hietala',
     twitter: 'chadhietala'
   },
   {
-    id: 108,
+    oldId: 108,
+    id: '108',
     name: 'Michael Ribbons',
     twitter: 'OmnigateIT'
   },
   {
-    id: 109,
+    oldId: 109,
+    id: '109',
     name: 'Ben Gillies',
     twitter: 'bengillies'
   },
   {
-    id: 110,
+    oldId: 110,
+    id: '110',
     name: 'Andy Appleton',
     twitter: 'appltn'
   },
   {
-    id: 111,
+    oldId: 111,
+    id: '111',
     name: 'Jason Madsen',
     twitter: 'jason_madsen'
   },
   {
-    id: 112,
+    oldId: 112,
+    id: '112',
     name: 'Vic Ramon',
     twitter: 'vicramon'
   },
   {
-    id: 113,
+    oldId: 113,
+    id: '113',
     name: 'Brendan Briggs',
     twitter: 'bfbriggs'
   },
   {
-    id: 114,
+    oldId: 114,
+    id: '114',
     name: 'Sara Robinson',
     twitter: 'SRobTweets'
   },
   {
-    id: 115,
+    oldId: 115,
+    id: '115',
     name: 'Ruslan Yakhyaev',
     twitter: 'ryakh',
     site: 'http://ruslan.io/'
   },
   {
-    id: 116,
+    oldId: 116,
+    id: '116',
     name: 'Martin Feckie',
     twitter: 'mfeckie'
   },
   {
-    id: 117,
+    oldId: 117,
+    id: '117',
     name: 'Ken Snyder',
     twitter: 'yankeeinlondon',
     site: 'http://ken.net/blog/'
   },
   {
-    id: 118,
+    oldId: 118,
+    id: '118',
     name: 'Lance Harper',
     twitter: 'royallance',
     github: 'lanceharper'
   },
   {
-    id: 119,
+    oldId: 119,
+    id: 'bantic',
     name: 'Cory Forsyth',
     twitter: 'bantic',
     github: 'bantic',
+    slack: 'bantic',
     site: 'http://coryforsyth.com/'
   },
   {
-    id: 120,
+    oldId: 120,
+    id: '120',
     name: 'Janessa Det',
     twitter: 'jandet'
   },
   {
-    id: 121,
+    oldId: 121,
+    id: '121',
     name: 'Estella Madison',
     twitter: 'chicagoing'
   },
   {
-    id: 122,
+    oldId: 122,
+    id: '122',
     name: 'Heyjin Kim',
     twitter: 'heyjinkim',
     site: 'http://heyjinjs.us/'
   },
   {
-    id: 123,
+    oldId: 123,
+    id: '123',
     name: 'Robert Jackson',
     twitter: 'rwjblue',
     github: 'rwjblue'
   },
   {
-    id: 124,
+    oldId: 124,
+    id: '124',
     name: 'Edward Faulkner',
     github: 'ef4'
   },
   {
-    id: 125,
+    oldId: 125,
+    id: '125',
     name: 'John K. Paul',
     twitter: 'johnkpaul',
     github: 'johnkpaul'
   },
   {
-    id: 126,
+    oldId: 126,
+    id: '126',
     name: 'Leah Silber',
     twitter: 'wifelette'
   },
   {
-    id: 127,
+    oldId: 127,
+    id: '127',
     name: 'DeVaris Brown',
     twitter: 'devarispbrown',
     site: 'http://thefuriousone.com/'
   },
   {
-    id: 129,
+    oldId: 129,
+    id: '129',
     name: 'Justin Searls',
     twitter: 'searls'
   },
   {
-    id: 130,
+    oldId: 130,
+    id: '130',
     name: 'Andy Pliszka',
     twitter: 'AntiTyping'
   },
   {
-    id: 131,
+    oldId: 131,
+    id: '131',
     name: 'Paul Doerwald',
     twitter: 'pauldoerwald'
   },
   {
-    id: 132,
+    oldId: 132,
+    id: '132',
     name: 'Matteo Depalo',
     twitter: 'matteodepalo'
   },
   {
-    id: 133,
+    oldId: 133,
+    id: 'ElteHupkes',
     name: 'Elte Hupkes',
     github: 'ElteHupkes',
+    slack: 'ElteHupkes',
     site: 'http://metaphoric.nl/'
   },
   {
-    id: 134,
+    oldId: 134,
+    id: '134',
     name: 'Oscar Lodriguez',
     site: 'http://oscarlodriguez.nl/'
   },
   {
-    id: 135,
+    oldId: 135,
+    id: '135',
     name: 'Dennis Tel',
     twitter: 'dennistel90'
   },
   {
-    id: 136,
+    oldId: 136,
+    id: '136',
     name: 'Patrick Mulder'
   },
   {
-    id: 137,
+    oldId: 137,
+    id: '137',
     name: 'MajorBreakfast'
   },
   {
-    id: 138,
+    oldId: 138,
+    id: '138',
     name: 'Charles Lowell',
     twitter: 'cowboyd'
   },
   {
-    id: 139,
+    oldId: 139,
+    id: 'philrenaud',
     name: 'Phil Renaud',
     twitter: 'phil_renaud',
     github: 'philrenaud',
+    slack: 'philrenaud',
     site: 'http://riotindustries.com/'
   },
   {
-    id: 140,
+    oldId: 140,
+    id: 'joefiorini',
     name: 'Joe Fiorini',
     twitter: 'joefiorini',
     github: 'joefiorini',
+    slack: 'joefiorini',
     site: 'http://joefiorini.com/'
   },
   {
-    id: 141,
+    oldId: 141,
+    id: 'YoranBrondsema',
     name: 'Yoran Brondsema',
     twitter: 'YoranBrondsema',
     github: 'YoranBrondsema',
+    slack: 'YoranBrondsema',
     site: 'http://yoranbrondsema.com/'
   },
   {
-    id: 142,
+    oldId: 142,
+    id: 'MiguelMadero',
     name: 'Miguel Madero',
     github: 'MiguelMadero',
+    slack: 'MiguelMadero',
     site: 'http://miguelmadero.com/'
   },
   {
-    id: 143,
+    oldId: 143,
+    id: '143',
     name: 'Chris Oei',
     twitter: 'ChrisOei',
     github: 'chrisoei'
   },
   {
-    id: 144,
+    oldId: 144,
+    id: 'LaminSanneh',
     name: 'Lamin Sanneh',
     github: 'LaminSanneh',
+    slack: 'LaminSanneh',
     twitter: 'LSWebApps',
     site: 'http://www.lswebapps.com/'
   },
   {
-    id: 145,
+    oldId: 145,
+    id: 'jongd',
     name: 'Jon Gold',
     github: 'jongd',
+    slack: 'jongd',
     twitter: 'jongold',
     site: 'http://www.jon.gd/'
   },
   {
-    id: 146,
+    oldId: 146,
+    id: 'marcoow',
     name: 'Marco Otte-Witte',
     github: 'marcoow',
+    slack: 'marcoow',
     twitter: 'simplelabs',
     site: 'http://simplabs.com'
   },
   {
-    id: 147,
+    oldId: 147,
+    id: '147',
     name: 'Andy Brown',
     twitter: 'UBC_founder',
     site: 'http://thetechcofounder.com/'
   },
   {
-    id: 148,
+    oldId: 148,
+    id: 'abuiles',
     name: 'Adolfo Builes',
     twitter: 'abuiles',
+    slack: 'abuiles',
     site: 'http://blog.abuiles.com'
   },
   {
-    id: 149,
+    oldId: 149,
+    id: '149',
     name: 'Martin Broerse',
     github: 'broerse'
   },
   {
-    id: 150,
+    oldId: 150,
+    id: 'joostdevries',
     name: 'Joost de Vries',
     github: 'joostdevries',
+    slack: 'joostdevries',
     twitter: 'joostdevrs',
     site: 'http://closealert.com'
   },
   {
-    id: 151,
+    oldId: 151,
+    id: 'benkonrath',
     name: 'Ben Konrath',
     github: 'benkonrath',
+    slack: 'benkonrath',
     site: 'http://bagu.org'
   },
   {
-    id: 152,
+    oldId: 152,
+    id: '152',
     name: 'Sergey Osipov'
   },
   {
-    id: 153,
+    oldId: 153,
+    id: 'fivetanley',
     name: 'Stanley Stuart',
     github: 'fivetanley',
+    slack: 'fivetanley',
     twitter: 'fivetanley'
   },
   {
-    id: 154,
+    oldId: 154,
+    id: 'mmun',
     name: 'Martin Muñoz',
     github: 'mmun',
+    slack: 'mmun',
     twitter: ' _mmun'
   },
   {
-    id: 155,
+    oldId: 155,
+    id: 'mitchlloyd',
     name: 'Mitch Lloyd',
     github: 'mitchlloyd',
+    slack: 'mitchlloyd',
     twitter: 'too_mitch'
   },
   {
-    id: 156,
+    oldId: 156,
+    id: 'JoshSmith',
     name: 'Josh Smith',
     github: 'JoshSmith',
+    slack: 'JoshSmith',
     twitter: 'joshsmith'
   },
   {
-    id: 157,
+    oldId: 157,
+    id: 'danmcclain',
     name: 'Dan McClain',
     github: 'danmcclain',
+    slack: 'danmcclain',
     twitter: '_danmcclain'
   },
   {
-    id: 158,
+    oldId: 158,
+    id: 'code0100fun',
     name: 'Chase McCarthy',
     github: 'code0100fun',
+    slack: 'code0100fun',
     twitter: 'code0100fun'
   },
   {
-    id: 159,
+    oldId: 159,
+    id: 'rondale-sc',
     name: 'Jonathan Jackson',
     github: 'rondale-sc',
+    slack: 'rondale-sc',
     twitter: 'rondale_sc'
   },
   {
-    id: 160,
+    oldId: 160,
+    id: 'barelyknown',
     name: 'Sean Devine',
     github: 'barelyknown',
+    slack: 'barelyknown',
     twitter: 'barelyknown'
   },
   {
-    id: 161,
+    oldId: 161,
+    id: 'notmessenger',
     name: 'Jeremy Brown',
     twitter: 'notmessenger',
     github: 'notmessenger',
+    slack: 'notmessenger',
     site: 'http://www.notmessenger.com/'
   },
   {
-    id: 162,
+    oldId: 162,
+    id: '162',
     name: 'Ken Sin',
     github: 'ksin'
   },
   {
-    id: 163,
+    oldId: 163,
+    id: '163',
     name: 'Mike Harris',
     github: 'mharris717'
   },
   {
-    id: 164,
+    oldId: 164,
+    id: 'edson-',
     name: 'Mike Edson',
     twitter: 'mikeedson',
     github: 'edson-',
+    slack: 'edson-',
     site: 'http://www.childrenshospital.org/'
   },
   {
-    id: 165,
+    oldId: 165,
+    id: 'poteto',
     name: 'Lauren Tan',
     twitter: 'sugarpirate_',
     github: 'poteto',
+    slack: 'poteto',
     site: 'https://medium.com/@sugarpirate/',
     speakerdeck: 'poteto'
   },
   {
-    id: 166,
+    oldId: 166,
+    id: '166',
     name: 'Mike Stanley'
   },
   {
-    id: 167,
+    oldId: 167,
+    id: '167',
     name: 'David McMullen',
     twitter: 'davecocoa7',
     github: 'davecocoa'
   },
   {
-    id: 168,
+    oldId: 168,
+    id: 'Twinkletoes',
     name: 'Bryan Crotaz',
     twitter: 'BryanCrotaz',
     github: 'Twinkletoes',
+    slack: 'Twinkletoes',
     site: 'http://www.silvercurve.co.uk/'
   },
   {
-    id: 169,
+    oldId: 169,
+    id: 'h55nick',
     name: 'Nick Blanchet',
     twitter: 'h55nick',
     github: 'h55nick',
+    slack: 'h55nick',
     site: 'http://nblanchet.com/'
   },
   {
-    id: 170,
+    oldId: 170,
+    id: 'scott2211',
     name: 'Scott Stevenson',
     twitter: 'scott2211',
     github: 'scott2211',
+    slack: 'scott2211',
     site: 'http://www.scottstevenson.me/'
   },
   {
-    id: 171,
+    oldId: 171,
+    id: 'achambers',
     name: 'Aaron Chambers',
     twitter: 'grandazz',
     github: 'achambers',
+    slack: 'achambers',
     speakerdeck: 'achambers'
   },
   {
-    id: 172,
+    oldId: 172,
+    id: 'mickyginger',
     name: 'Mike Hayden',
     github: 'mickyginger',
+    slack: 'mickyginger',
     site: 'http://weareeverywhere.co.uk/news/'
   },
   {
-    id: 173,
+    oldId: 173,
+    id: '173',
     name: 'Thom Langford',
     twitter: 'ThomLangford',
     site: 'http://thomlangford.com',
     slideshare: '44Con'
   },
   {
-    id: 174,
+    oldId: 174,
+    id: '174',
     name: 'Thomas Cowell',
     twitter: 'thomcowell',
     site: 'http://eightsquarestudio.com/'
   },
   {
-    id: 175,
+    oldId: 175,
+    id: '175',
     name: 'Martin Pratt',
     twitter: 'martinrp_',
     site: 'http://weareeverywhere.co.uk/news/'
   },
   {
-    id: 176,
+    oldId: 176,
+    id: 'StuartHarris',
     name: 'Stuart Harris',
     twitter: 'stuartharris',
     github: 'StuartHarris',
+    slack: 'StuartHarris',
     site: 'http://red-badger.com/blog/author/stuart-harris/'
   },
   {
-    id: 177,
+    oldId: 177,
+    id: 'despo',
     name: 'Despo Pentara',
     twitter: 'despo',
     github: 'despo',
+    slack: 'despo',
     slideshare: 'despw'
   },
   {
-    id: 178,
+    oldId: 178,
+    id: 'Globegitter',
     name: 'Markus Padourek',
     twitter: 'mpadourek',
     github: 'Globegitter',
+    slack: 'Globegitter',
     site: 'http://sanestack.com/'
   },
   {
-    id: 179,
+    oldId: 179,
+    id: 'thomasmarshall',
     name: 'Thomas Marshall',
     twitter: 'tmrshl',
     github: 'thomasmarshall',
+    slack: 'thomasmarshall',
     site: 'http://www.thomasmarshall.com/'
   },
   {
-    id: 180,
+    oldId: 180,
+    id: '180',
     name: 'Tom Close',
     twitter: 'tomclse'
   },
   {
-    id: 181,
+    oldId: 181,
+    id: 'milestinsley',
     name: 'Miles Tinsley',
     twitter: 'milestinsley',
     github: 'milestinsley',
+    slack: 'milestinsley',
     site: 'http://milestinsley.com/',
     speakerdeck: 'milestinsley'
   },
   {
-    id: 182,
+    oldId: 182,
+    id: 'gazpachu',
     name: 'Joan Mira',
     twitter: 'gazpachu',
     github: 'gazpachu',
+    slack: 'gazpachu',
     site: 'http://www.gazpachu.com/en'
   },
   {
-    id: 183,
+    oldId: 183,
+    id: 'hhff',
     name: 'Hugh Francis',
     twitter: '_HHFF',
     github: 'hhff',
+    slack: 'hhff',
     site: 'http://hughfrancis.me/'
   },
   {
-    id: 184,
+    oldId: 184,
+    id: '184',
     name: 'Tim Evans',
     twitter: 'timmyce',
     github: 'tim-evans'
   },
   {
-    id: 185,
+    oldId: 185,
+    id: '185',
     name: 'Gaurav Munjal',
     twitter: 'gaurav9576',
     github: 'gaurav0'
   },
   {
-    id: 186,
+    oldId: 186,
+    id: '186',
     name: 'Nik NyBy',
     github: 'nikolas'
   },
   {
-    id: 187,
+    oldId: 187,
+    id: '187',
     name: 'Manolo Familia',
     twitter: 'followmanolo'
   },
   {
-    id: 188,
+    oldId: 188,
+    id: 'chrislopresto',
     name: 'Chris LoPresto',
     twitter: 'chrislopresto',
     github: 'chrislopresto',
+    slack: 'chrislopresto',
     site: 'http://chrislopresto.com/'
   },
   {
-    id: 189,
+    oldId: 189,
+    id: 'rogeruiz',
     name: 'Roger Ruiz',
     twitter: 'rogeruiz',
     github: 'rogeruiz',
+    slack: 'rogeruiz',
     site: 'http://rog.gr/'
   },
   {
-    id: 190,
+    oldId: 190,
+    id: '190',
     name: 'Jake Grinsted',
     twitter: 'JakeGrinsted',
     site: 'http://solveitsimply.com/'
   },
   {
-    id: 191,
+    oldId: 191,
+    id: 'ivanvanderbyl',
     name: 'Ivan Vanderbyl ',
     twitter: 'IvanVanderbyl',
     github: 'ivanvanderbyl',
+    slack: 'ivanvanderbyl',
     site: 'http://ivanvanderbyl.com/'
   },
   {
-    id: 192,
+    oldId: 192,
+    id: 'steveklabnik',
     name: 'Steve Klabnik',
     twitter: 'steveklabnik',
     github: 'steveklabnik',
+    slack: 'steveklabnik',
     site: 'http://words.steveklabnik.com/',
     speakerdeck: 'steveklabnik'
   },
   {
-    id: 193,
+    oldId: 193,
+    id: 'oligriffiths',
     name: 'Oli Griffiths',
     twitter: 'oligriffiths',
     github: 'oligriffiths',
+    slack: 'oligriffiths',
     site: 'http://about.me/oligriffiths',
     slideshare: 'oligriffiths'
   },
   {
-    id: 194,
+    oldId: 194,
+    id: '194',
     name: 'Michael Madrid',
     github: 'kagemusha'
   },
   {
-    id: 195,
+    oldId: 195,
+    id: '195',
     name: 'Edgar Calderon',
     site: 'http://calderas.me/'
   },
   {
-    id: 196,
+    oldId: 196,
+    id: 'jeffplang',
     name: 'Jeff Lang',
     twitter: 'jeffplang',
     github: 'jeffplang',
+    slack: 'jeffplang',
     site: 'http://www.phishtracks.com/'
   },
   {
-    id: 197,
+    oldId: 197,
+    id: '197',
     name: 'Amit Schecter',
     twitter: 'meetamit',
     site: 'http://two-n.com/'
   },
   {
-    id: 198,
+    oldId: 198,
+    id: 'dvingo',
     name: 'Dan Vingo',
     github: 'dvingo',
+    slack: 'dvingo',
     site: 'http://howdoesthisevn.com/writing'
   },
   {
-    id: 199,
+    oldId: 199,
+    id: '199',
     name: 'Daniel Sudol',
     github: 'danielspaniel'
   },
   {
-    id: 200,
+    oldId: 200,
+    id: 'iezer',
     name: 'Isaac Ezer',
     twitter: 'isaacezer',
     github: 'iezer',
+    slack: 'iezer',
     site: 'http://isaacezer.com/'
   },
   {
-    id: 201,
+    oldId: 201,
+    id: '201',
     name: 'Venkat Dinavahi',
     twitter: 'venkatdinavahi',
     github: 'venkatd'
   },
   {
-    id: 202,
+    oldId: 202,
+    id: 'csantero',
     name: 'Chris Santero',
     github: 'csantero',
+    slack: 'csantero',
     site: 'http://simply360.com/'
   },
   {
-    id: 203,
+    oldId: 203,
+    id: '203',
     name: 'Scott Norvell',
     twitter: 'scottlnorvell'
   },
   {
-    id: 204,
+    oldId: 204,
+    id: '204',
     name: 'Andy Pye'
   },
   {
-    id: 205,
+    oldId: 205,
+    id: 'suchitpuri',
     name: 'Suchit Puri',
     twitter: 'suchitpuri',
     github: 'suchitpuri',
+    slack: 'suchitpuri',
     site: 'http://suchitpuri.com/'
   },
   {
-    id: 206,
+    oldId: 206,
+    id: 'mattw59',
     name: 'Matthew White',
     twitter: 'mattw59',
+    slack: 'mattw59',
     github: 'mattw59'
   },
   {
-    id: 207,
+    oldId: 207,
+    id: 'frank06',
     name: 'Frank Treacy',
     twitter: 'frank06',
     github: 'frank06',
+    slack: 'frank06',
     site: 'http://emberigniter.com/about/'
   },
   {
-    id: 208,
+    oldId: 208,
+    id: 'alexdiliberto',
     name: 'Alex DiLiberto',
     twitter: 'alex_diliberto',
     github: 'alexdiliberto',
+    slack: 'alexdiliberto',
     site: 'http://alexdiliberto.com'
   },
   {
-    id: 209,
+    oldId: 209,
+    id: 'locks',
     name: 'Ricardo Mendes',
     twitter: 'locks',
     github: 'locks',
+    slack: 'locks',
     site: 'http://locks.svbtle.com/'
   },
   {
     name: 'Nicky Thompson',
     twitter: 'knotnicky ',
     site: 'http://symphonicknot.com/',
-    id: 210
+    oldId: 210,
+    id: '210'
   },
   {
     name: 'Miguel Camba',
     twitter: 'miguelcamba',
     site: 'http://miguelcamba.com/',
-    id: 211
+    oldId: 211,
+    id: '211'
   },
   {
     name: 'Robert Knight',
     twitter: 'robknight_',
     github: 'robertknight',
+    slack: 'robertknight',
     site: 'http://robertknight.github.io/',
-    id: 212
+    oldId: 212,
+    id: 'robertknight'
   },
   {
     name: 'Nik Wakelin',
     twitter: 'nikz',
     github: 'nikz',
+    slack: 'nikz',
     site: 'http://nikwakelin.com/',
-    id: 213
+    oldId: 213,
+    id: 'nikz'
   },
   {
     name: 'Peter O’Shaughnessy',
     twitter: 'poshaughnessy',
     github: 'poshaughnessy',
+    slack: 'poshaughnessy',
     site: 'http://www.peteroshaughnessy.com/',
-    id: 214
+    oldId: 214,
+    id: 'poshaughnessy'
   },
   {
     name: 'Deepan Aiyasamy',
     twitter: 'deepanice',
-    id: 215
+    oldId: 215,
+    id: '215'
   },
   {
     name: 'Vaidas Mykolaitis',
     twitter: 'codepreneurr',
     site: 'http://www.codepreneur.io/',
-    id: 216
+    oldId: 216,
+    id: '216'
   },
   {
     name: 'Chris Game',
     twitter: 'TheGameOf79',
-    id: 217
+    oldId: 217,
+    id: '217'
   },
   {
     name: 'Steve Tyler',
     twitter: 'stevetyler_uk',
     site: 'http://steve-tyler.co.uk/',
     slideshare: 'SteveTyler3',
-    id: 218
+    oldId: 218,
+    id: '218'
   },
   {
     name: 'David Rhys White',
     twitter: 'davidrhyswhite',
     github: 'davidrhyswhite',
+    slack: 'davidrhyswhite',
     site: 'http://davidrhyswhite.github.io/',
-    id: 219
+    oldId: 219,
+    id: 'davidrhyswhite'
   },
   {
     name: 'Andrew Faraday',
     twitter: 'MarmiteJunction',
     github: 'AJFaraday',
+    slack: 'AJFaraday',
     site: 'http://www.andrewfaraday.com/',
-    id: 220
+    oldId: 220,
+    id: 'AJFaraday'
   },
   {
     name: 'Melinda Seckington',
     twitter: 'mseckington',
     github: 'mseckington',
+    slack: 'mseckington',
     site: 'http://missgeeky.com/',
     slideshare: 'mseckington',
-    id: 221
+    oldId: 221,
+    id: 'mseckington'
   },
   {
     name: 'Sebastian McKenzie',
     twitter: 'sebmck',
     github: 'sebmck',
+    slack: 'sebmck',
     site: 'http://sebmck.com/',
-    id: 222
+    oldId: 222,
+    id: 'sebmck'
   },
   {
     name: 'Will Raxworthy',
     twitter: 'willrax',
     github: 'willrax',
+    slack: 'willrax',
     site: 'http://blog.willrax.com/',
     speakerdeck: 'willrax',
-    id: 223
+    oldId: 223,
+    id: 'willrax'
   },
   {
     name: 'Nikos Katsikanis',
     twitter: 'nikosMaths',
-    id: 224
+    oldId: 224,
+    id: '224'
   },
   {
     name: 'Michael Nutt',
     twitter: 'michaeln3',
     github: 'mnutt',
+    slack: 'mnutt',
     site: 'http://nuttnet.net/',
-    id: 225
+    oldId: 225,
+    id: 'mnutt'
   },
   {
     name: 'Jonathan Dayton',
     twitter: 'goDownhillFast',
     github: 'jondayton',
+    slack: 'jondayton',
     site: 'http://jonathandayton.com/',
-    id: 226
+    oldId: 226,
+    id: 'jondayton'
   },
   {
     name: 'David Kerr',
     twitter: 'Dave_Kerr_',
     github: 'davek09',
+    slack: 'davek09',
     site: 'http://www.davekerr.co/',
     slideshare: 'DavidKerr8',
-    id: 227
+    oldId: 227,
+    id: 'davek09'
   },
   {
     name: 'Philip Poots',
     twitter: 'pootsbook',
     github: 'pootsbook',
+    slack: 'pootsbook',
     site: 'http://crossingtheruby.com/',
     slideshare: 'pootsbook',
-    id: 228
+    oldId: 228,
+    id: 'pootsbook'
   },
   {
     name: 'Max Minkoff',
     twitter: 'mminkoff',
     github: 'mminkoff',
-    id: 229
+    slack: 'mminkoff',
+    oldId: 229,
+    id: 'mminkoff'
   },
   {
     name: 'Danielle Adams',
     twitter: 'adamzdanielle',
-    id: 230
+    oldId: 230,
+    id: '230'
   },
   {
     name: 'Hassan Abdel-Rahman',
     twitter: 'habdelra',
     github: 'habdelra',
-    id: 231
+    slack: 'habdelra',
+    oldId: 231,
+    id: 'habdelra'
   },
   {
     name: 'Ray Tiley',
     twitter: 'raytiley',
     github: 'raytiley',
+    slack: 'raytiley',
     site: 'http://raytiley.com/',
-    id: 232
+    oldId: 232,
+    id: 'raytiley'
   },
   {
     name: 'Justin McNally',
     twitter: 'j_mcnally',
     github: 'j-mcnally',
+    slack: 'j-mcnally',
     site: 'http://www.kohactive.com/',
-    id: 233
+    oldId: 233,
+    id: 'j-mcnally'
   },
   {
     name: 'Tony Coconate',
     twitter: 'tonycoco',
     github: 'tonycoco',
+    slack: 'tonycoco',
     site: 'http://www.tonycoconate.com/',
     speakerdeck: 'tonycoco',
-    id: 234
+    oldId: 234,
+    id: 'tonycoco'
   },
   {
     name: 'Mike Monroe',
-    id: 235
+    oldId: 235,
+    id: '235'
   },
   {
     name: 'Raymond Cox',
     twitter: 'RaymondCox',
     github: 'raymondjcox',
+    slack: 'raymondjcox',
     site: 'https://raymondjcox.com/',
-    id: 236
+    oldId: 236,
+    id: 'raymondjcox'
   },
   {
     name: 'Elad Shahar',
     twitter: 'Elad',
     github: 'SaladFork',
+    slack: 'SaladFork',
     site: 'https://blog.eladshahar.com/',
-    id: 237
+    oldId: 237,
+    id: 'SaladFork'
   },
   {
     name: 'Pat O’Callaghan',
     twitter: 'patocallaghan',
     github: 'patocallaghan',
+    slack: 'patocallaghan',
     site: 'http://littleglitch.io/',
     speakerdeck: 'patocallaghan',
-    id: 238
+    oldId: 238,
+    id: 'patocallaghan'
   },
   {
     name: 'Paddy O’Brien',
     github: 'paddyobrien',
+    slack: 'paddyobrien',
     speakerdeck: 'paddyobrien',
-    id: 239
+    oldId: 239,
+    id: 'paddyobrien'
   },
   {
     name: 'Chris Tse',
     twitter: 'christse',
     github: 'christse',
+    slack: 'christse',
     site: 'http://cardstack.io/',
     speakerdeck: 'christse',
-    id: 240
+    oldId: 240,
+    id: 'christse'
   },
   {
     name: 'Mike North',
     twitter: 'michaellnorth',
     github: 'mike-north',
+    slack: 'mike-north',
     speakerdeck: 'truenorth',
     slideshare: 'mikelnorth',
-    id: 241
+    oldId: 241,
+    id: 'mike-north'
   },
   {
     name: 'Jay Phelps',
     twitter: '_jayphelps',
     github: 'jayphelps',
+    slack: 'jayphelps',
     site: 'http://jayphelps.com/',
     speakerdeck: 'jayphelps',
     slideshare: 'jayphelps',
-    id: 242
+    oldId: 242,
+    id: 'jayphelps'
   },
   {
     name: 'Estelle DeBlois',
     twitter: 'edeblois',
     github: 'brzpegasus',
+    slack: 'brzpegasus',
     site: 'https://dockyard.com/',
     speakerdeck: 'brzpegasus',
-    id: 243
+    oldId: 243,
+    id: 'brzpegasus'
   },
   {
     name: 'John Kleinschmidt',
     twitter: 'jkleinsc',
     github: 'jkleinsc',
+    slack: 'jkleinsc',
     site: 'http://resplendentdev.com/',
-    id: 244
+    oldId: 244,
+    id: 'jkleinsc'
   },
   {
     name: 'Nathan Hammond',
     twitter: 'nathanhammond',
     github: 'nathanhammond',
+    slack: 'nathanhammond',
     site: 'http://www.nathanhammond.com/',
     slideshare: 'NathanHammond4',
-    id: 245
+    oldId: 245,
+    id: 'nathanhammond'
   },
   {
     name: 'Steve Trevathan',
     twitter: 'strevat',
     site: 'https://dockyard.com/',
     speakerdeck: 'kidfribble',
-    id: 246
+    oldId: 246,
+    id: '246'
   },
   {
     name: 'Godfrey Chan',
     twitter: 'chancancode',
     github: 'chancancode',
+    slack: 'chancancode',
     site: 'https://about.me/godfreychan',
     speakerdeck: 'chancancode',
     slideshare: 'godfreykfc',
-    id: 247
+    oldId: 247,
+    id: 'chancancode'
   },
   {
     name: 'Chris Henn',
     twitter: 'cwhnn',
     github: 'chnn',
+    slack: 'chnn',
     site: 'http://chrishenn.net/writing/',
     speakerdeck: 'chnn',
-    id: 248
+    oldId: 248,
+    id: 'chnn'
   },
   {
     name: 'Bryan Langslet',
     twitter: 'blangslet',
     github: 'blangslet',
+    slack: 'blangslet',
     site: 'http://blangslet.com/',
     speakerdeck: 'blangslet',
-    id: 249
+    oldId: 249,
+    id: 'blangslet'
   },
   {
     name: 'Brittany Storoz',
     twitter: 'brittanystoroz',
     github: 'brittanystoroz',
-    id: 250
+    slack: 'brittanystoroz',
+    oldId: 250,
+    id: 'brittanystoroz'
   },
   {
     name: 'Steve Kinney',
     twitter: 'stevekinney',
     github: 'stevekinney',
+    slack: 'stevekinney',
     site: 'http://www.stevekinney.net/',
     speakerdeck: 'stevekinney',
     slideshare: 'stevekinney',
-    id: 251
+    oldId: 251,
+    id: 'stevekinney'
   },
   {
     name: 'Chris Eppstein',
     twitter: 'chriseppstein',
     github: 'chriseppstein',
+    slack: 'chriseppstein',
     site: 'http://chriseppstein.github.io/',
     slideshare: 'chriseppstein',
-    id: 252
+    oldId: 252,
+    id: 'chriseppstein'
   },
   {
     name: 'Jordan Hawker',
     twitter: 'JordanHawker',
     github: 'elwayman02',
+    slack: 'elwayman02',
     site: 'http://www.jordanhawker.com/',
     company: 'CheckMate',
-    id: 253
+    oldId: 253,
+    id: 'elwayman02'
   },
   {
     name: 'Benjamin Fleischer',
     twitter: 'hazula',
     github: 'bf4',
+    slack: 'bf4',
     site: 'http://www.benjaminfleischer.com',
-    id: 254
+    oldId: 254,
+    id: 'bf4'
   },
   {
     name: 'Jimmy Lauzau',
     twitter: 'jimmay5469',
     github: 'jimmay5469',
+    slack: 'jimmay5469',
     site: 'http://jimmylauzau.com/',
-    id: 255
+    oldId: 255,
+    id: 'jimmay5469'
   },
   {
     name: 'Mike Pastore',
     twitter: 'mwpmaybe',
     site: 'http://perlkour.pl/',
-    id: 256
+    oldId: 256,
+    id: '256'
   },
   {
     name: 'Alisdair McDiarmid',
     twitter: 'alisdair',
     github: 'alisdair',
+    slack: 'alisdair',
     site: 'http://alisdair.mcdiarmid.org/',
-    id: 257
+    oldId: 257,
+    id: 'alisdair'
   },
   {
     name: 'Ben Holmes',
     twitter: 'bdvholmes',
     github: 'bdvholmes',
+    slack: 'bdvholmes',
     site: 'http://benholmes.uk',
-    id: 258
+    oldId: 258,
+    id: 'bdvholmes'
   },
   {
     name: 'Paul Cowan',
     twitter: 'dagda1',
     site: 'http://www.thesoftwaresimpleton.com/',
-    id: 259
+    oldId: 259,
+    id: '259'
   },
   {
     name: 'Geoff Schorkopf',
     twitter: 'gschork',
     github: 'gschorkopf',
+    slack: 'gschorkopf',
     site: 'https://www.bignerdranch.com/about-us/nerds/geoffrey-schorkopf/',
-    id: 260
+    oldId: 260,
+    id: 'gschorkopf'
   },
   {
     name: 'Stefan Wintermeyer',
     twitter: 'wintermeyer',
     github: 'wintermeyer',
+    slack: 'wintermeyer',
     site: 'http://www.amooma.de/',
-    id: 261
+    oldId: 261,
+    id: 'wintermeyer'
   },
   {
     name: 'Dave Wasmer',
     twitter: 'davewasmer',
     github: 'davewasmer',
+    slack: 'davewasmer',
     site: 'http://www.davewasmer.com/',
-    id: 262
+    oldId: 262,
+    id: 'davewasmer'
   },
   {
     name: 'Matthew Sumner',
     twitter: 'MatthewMSumner',
     github: 'MattMSumner',
+    slack: 'MattMSumner',
     site: 'http://appallingfarrago.com/',
-    id: 263
+    oldId: 263,
+    id: 'MattMSumner'
   },
   {
     name: 'Katherine Tornwall',
     twitter: 'ktornwall',
     github: 'ktornwall',
+    slack: 'ktornwall',
     site: 'https://teamgaslight.com/people/katherine-tornwall',
-    id: 264
+    oldId: 264,
+    id: 'ktornwall'
   },
   {
     name: 'Kuba Niechcial',
     twitter: 'jniechcial',
     github: 'jniechcial',
+    slack: 'jniechcial',
     site: 'https://www.netguru.co/team/kuba-n',
-    id: 265
+    oldId: 265,
+    id: 'jniechcial'
   },
   {
     name: 'Sean Doyle',
     github: 'seanpdoyle',
+    slack: 'seanpdoyle',
     site: 'http://builtbychief.com/',
-    id: 266
+    oldId: 266,
+    id: 'seanpdoyle'
   },
   {
     name: 'Omar Ismail',
     twitter: 'OmarIsmail_io',
     site: 'http://www.seekingintellect.com/',
-    id: 267
+    oldId: 267,
+    id: '267'
   },
   {
     name: 'John Fisher',
     github: 'jnfisher',
+    slack: 'jnfisher',
     site: 'http://spin.atomicobject.com/author/john-fisher/',
-    id: 268
+    oldId: 268,
+    id: 'jnfisher'
   },
   {
     name: 'Brent Schooley',
     twitter: 'brentschooley',
     github: 'brentschooley',
+    slack: 'brentschooley',
     site: 'https://www.twilio.com/blog/author/brent-schooley',
-    id: 269
+    oldId: 269,
+    id: 'brentschooley'
   },
   {
     name: 'Philippe de Ryck',
-    id: 270
+    oldId: 270,
+    id: '270'
   },
   {
     name: 'Erik Hanchett',
     twitter: 'ErikCH',
     github: 'ErikCH',
+    slack: 'ErikCH',
     site: 'http://www.programwitherik.com/',
-    id: 271
+    oldId: 271,
+    id: 'ErikCH'
   },
   {
     name: 'Dan Hutchinson',
     twitter: 'danwhutchinson',
     github: 'danielhutchinson',
+    slack: 'danielhutchinson',
     site: 'http://www.hutchinson.io/',
-    id: 272
+    oldId: 272,
+    id: 'danielhutchinson'
   },
   {
     name: 'Damien White',
     site: 'https://semaphoreci.com/community/authors/visoft',
-    id: 273
+    oldId: 273,
+    id: '273'
   },
   {
     name: 'Ryan Abel',
     twitter: 'ryan_and_abel',
     site: 'http://spin.atomicobject.com/author/abel/',
-    id: 274
+    oldId: 274,
+    id: '274'
   },
   {
     name: 'Michael Klein',
-    id: 275
+    oldId: 275,
+    id: '275'
   },
   {
     name: 'Andreas Hubel',
-    id: 276
+    oldId: 276,
+    id: '276'
   },
   {
     name: 'Ulises Ramirez-Roche',
-    id: 277
+    oldId: 277,
+    id: '277'
   },
   {
     name: 'Santiago Pastorino',
     twitter: 'spastorino',
     github: 'spastorino',
-    id: 278
+    slack: 'spastorino',
+    oldId: 278,
+    id: 'spastorino'
   },
   {
     name: 'Marten Schilstra',
-    id: 279
+    oldId: 279,
+    id: '279'
   },
   {
     name: 'Oleksii Rudenko',
     github: 'OrKoN',
+    slack: 'OrKoN',
     site: 'https://60devs.com/',
-    id: 280
+    oldId: 280,
+    id: 'OrKoN'
   },
   {
     name: 'Andy Borsz',
-    id: 281
+    oldId: 281,
+    id: '281'
   },
   {
     name: 'Rômulo Machado',
     twitter: 'romulomachado_',
     github: 'romulomachado',
+    slack: 'romulomachado',
     site: 'http://romulomachado.github.io/',
-    id: 282
+    oldId: 282,
+    id: 'romulomachado'
   },
   {
     name: 'Jeff Jewiss',
     github: 'jeffjewiss',
-    id: 283
+    slack: 'jeffjewiss',
+    oldId: 283,
+    id: 'jeffjewiss'
   },
   {
     name: 'Jon Black',
     github: 'jonblack',
+    slack: 'jonblack',
     twitter: 'hmblcodr',
     site: 'http://blog.humblecoder.com/',
-    id: 284
+    oldId: 284,
+    id: 'jonblack'
   },
   {
     name: 'Chris Ball',
-    id: 285
+    oldId: 285,
+    id: '285'
   },
   {
     name: 'Micah Woods',
     twitter: 'mwoods79',
-    id: 286
+    oldId: 286,
+    id: '286'
   },
   {
     name: 'Adam Niedzielski',
     twitter: 'adamniedzielski',
-    id: 287
+    oldId: 287,
+    id: '287'
   },
   {
     name: 'Josh Clayton',
     twitter: 'joshuaclayton',
     site: 'joshuaclayton.me',
-    id: 288
+    oldId: 288,
+    id: '288'
   },
   {
     name: 'James Futhey',
     github: 'kidGodzilla',
-    id: 289
+    slack: 'kidGodzilla',
+    oldId: 289,
+    id: 'kidGodzilla'
   },
   {
     name: 'Travis Hoover',
     twitter: 'Thoov',
-    id: 290
+    oldId: 290,
+    id: '290'
   },
   {
     name: 'Leo Hernandez',
     twitter: 'leojh',
-    id: 291
+    oldId: 291,
+    id: '291'
   },
   {
     name: 'Matt Rozema',
-    id: 292
+    oldId: 292,
+    id: '292'
   },
   {
     name: 'John Ruble',
-    id: 293
+    oldId: 293,
+    id: '293'
   },
   {
     name: 'David Strauß',
-    id: 294,
+    oldId: 294,
+    id: '294',
     twitter: 'stravid'
   },
   {
     name: 'Damian Senn',
-    id: 295,
+    oldId: 295,
+    id: '295',
     twitter: 'topaxi'
   },
   {
     name: 'Jason Cummings',
-    id: 296,
+    oldId: 296,
+    id: '296',
     github: 'jsncmgs1'
   },
   {
     name: 'Mark Haylock',
-    id: 297
+    oldId: 297,
+    id: '297'
   },
   {
     name: 'Chris Thoburn',
-    id: 298,
+    oldId: 298,
+    id: 'runspired',
     twitter: 'runspired',
     github: 'runspired',
+    slack: 'runspired',
     site: 'https://blog.runspired.com/'
   },
   {
     name: 'Matic Jurglic',
     twitter: 'matixmatix',
     github: 'matixmatix',
+    slack: 'matixmatix',
     site: 'http://codeandtechno.com',
-    id: 299
+    oldId: 299,
+    id: 'matixmatix'
   },
   {
     name: 'Matt McKenna',
-    id: 300,
+    oldId: 300,
+    id: '300',
     github: 'mtmckenna'
   },
   {
     name: 'Vikram Narayan',
-    id: 301,
+    oldId: 301,
+    id: 'vikram-s-narayan',
     twitter: 'vikramsnarayan',
     github: 'vikram-s-narayan',
+    slack: 'vikram-s-narayan',
     site: 'http://www.twitter.com/vikramsnarayan'
   },
   {
     name: 'Zoltan Debre',
-    id: 302,
+    oldId: 302,
+    id: 'szines',
     twitter: 'szines',
     github: 'szines',
+    slack: 'szines',
     site: 'http://zoltan.nz'
   },
   {
     name: 'David Tang',
-    id: 303,
+    oldId: 303,
+    id: 'skaterdav85',
     twitter: 'skaterdav85',
     github: 'skaterdav85',
+    slack: 'skaterdav85',
     site: 'http://thejsguy.com'
   },
   {
     name: 'Felix Rieseberg',
-    id: 304
+    oldId: 304,
+    id: '304'
   },
   {
     name: 'Mattia Gheda',
-    id: 305
+    oldId: 305,
+    id: '305'
   },
   {
     name: 'Ryan Tablada',
-    id: 306,
+    oldId: 306,
+    id: '306',
     twitter: 'ryantablada'
   },
   {
     name: 'Brendan O\'Hara',
-    id: 307,
+    oldId: 307,
+    id: '307',
     twitter: 'brendanohara'
   },
   {
     name: 'Karol Galanciak',
-    id: 308,
+    oldId: 308,
+    id: '308',
     twitter: 'azdaroth'
   },
   {
     name: 'Tracy Lee',
-    id: 309,
+    oldId: 309,
+    id: '309',
     twitter: 'ladyleet'
   },
   {
     name: 'Dennis Qian',
-    id: 310,
+    oldId: 310,
+    id: '310',
     twitter: 'dennis_qian'
   },
   {
     name: 'Todd Jordan',
-    id: 311,
-    twitter: 'tddjordan'
+    oldId: 311,
+    id: '311',
+    twitter: 'tddjordan'  
   }
 ];

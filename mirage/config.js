@@ -10,10 +10,15 @@ export default function() {
   });
 
   this.get('/people', (schema) => {
-    return schema.person.all();
+    return schema.people.all();
+  });
+
+  this.get('people/:id', (schema, request) => {
+    let id = request.params.id;
+    return schema.people.find(id);
   });
 
   this.get('/books', (schema)=> {
-    return schema.book.all();
+    return schema.books.all();
   });
 }
