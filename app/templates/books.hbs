@@ -3,14 +3,14 @@
 {{#each model as |book|}}
   <article class="col-sm-6 book">
     <div class="col-md-6">
-      <a href="{{book.url}}"><img src="/images/books/{{book.slug}}.jpg" alt="{{book.title}}" /></a>
+      <a href="{{book.url}}" target="_blank"><img src="/images/books/{{slugify book.title}}.jpg" alt="{{book.title}}" /></a>
     </div>
     <div class="col-md-6 book-description">
-      <h2 class="title"><a href="{{book.url}}">{{book.title}}</a></h2>
+      <h2 class="title"><a href="{{book.url}}" target="_blank">{{book.title}}</a></h2>
       {{#each book.authors as |author|}}
-        <p class="author">{{#if author.site}}<a href="{{author.url}}">{{author.name}}</a>{{else}}{{author.name}}{{/if}}</p>
+        <p class="author">{{#if author.site}}<a href="{{author.site}}" target="_blank">{{author.name}}</a>{{else}}{{author.name}}{{/if}}</p>
       {{/each}}
-      <p class="publisher">{{book.publisher}} <span class="price">{{#if book.payment}}Paid{{else}}free{{/if}}</span></p>
+      <p class="publisher">{{book.publisher}} <span class="price">{{if book.payment 'Paid' 'Free'}}</span></p>
     </div>
   </article>
 {{/each}}
