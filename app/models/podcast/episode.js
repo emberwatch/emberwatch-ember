@@ -10,7 +10,7 @@ export default Model.extend({
   feed: belongsTo('podcast/feed'),
 
   title: attr('string'),
-  podcastName: attr('string'),
+  podcastName: attr(),
   date: attr('date'),
 
   duration: attr('string'),

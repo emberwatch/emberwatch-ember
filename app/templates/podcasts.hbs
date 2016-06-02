@@ -1,3 +1,18 @@
-{{#each podcasts as |podcast|}}
-  {{podcast}}
-{{/each}}j
+<style>
+  img {
+    width: 100px;
+    height: 100px;
+  }
+</style>
+<ul>
+  {{#each model as |podcast|}}
+  <li>
+    <h1>{{podcast.feed}}</h1>
+    {{#with podcast.episodes.firstObject as |lastEpisode|}}
+      <img src={{lastEpisode.imageUrl}} alt="lastEpisode.title">
+      <p><a href={{lastEpisode.id}}>{{lastEpisode.title}}</a></p>
+      <p>{{lastEpisode.date}}</p>
+    {{/with}}
+  </li>
+  {{/each}}
+</ul>
