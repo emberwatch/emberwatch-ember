@@ -32,7 +32,7 @@ export default [
     title: 'Developing an Ember Edge',
     authorIds: ['jgwhite', '101', 'workmanw', 'bradleypriest'],
     publisher: 'Bleeding Edge Press',
-    url: 'http://bleedingedgepress.com/our-books/developing-an-ember-edger',
+    url: 'http://bleedingedgepress.com/our-books/developing-an-ember-edge',
     payment: true,
   },
   {
