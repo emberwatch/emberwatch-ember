@@ -1,7 +1,7 @@
 export function serializeFixtureToJsonApi(fixture, type) {
   let serialized = {
     id: fixture.id,
-    type: type
+    type
   };
 
   delete fixture.id;
@@ -11,7 +11,7 @@ export function serializeFixtureToJsonApi(fixture, type) {
 }
 
 export function serializeFixturesToJsonApi(fixtures, type) {
-  let serialized = fixtures.map(fixture => {
+  let serialized = fixtures.map((fixture) => {
     return serializeFixtureToJsonApi(fixture, type);
   });
 

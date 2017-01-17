@@ -1,11 +1,10 @@
 import ENV from 'emberwatch-ember/config/environment';
-import { serializeFixturesToJsonApi } from
-  'emberwatch-ember/mirage/util/serialize-fixtures-to-json-api';
+import { serializeFixturesToJsonApi } from 'emberwatch-ember/mirage/util/serialize-fixtures-to-json-api';
 
 export default function() {
   this.passthrough(`${ENV.awsLambda.baseUrl}/**`);
 
-  this.get('/podcast/feeds', ({db}) => {
+  this.get('/podcast/feeds', ({ db }) => {
     return serializeFixturesToJsonApi(db.podcastFeeds, 'podcast/feed');
   });
 
@@ -14,7 +13,7 @@ export default function() {
   });
 
   this.get('people/:id', (schema, request) => {
-    let id = request.params.id;
+    let { params: { id } } = request;
     return schema.people.find(id);
   });
 

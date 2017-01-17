@@ -6,7 +6,7 @@ const TYPE = 'podcast/episode';
 
 export default RESTSerializer.extend({
   normalize(modelClass, recordHash, prop) {
-    const hash = {};
+    let hash = {};
 
     hash.title = recordHash.title;
     hash.url = recordHash['rss:link'];

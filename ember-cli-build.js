@@ -9,9 +9,6 @@ module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     sassOptions: {
       includePaths: 'vendor/styles'
-    },
-    'ember-cli-qunit': {
-      useLintTree: false
     }
   });
 

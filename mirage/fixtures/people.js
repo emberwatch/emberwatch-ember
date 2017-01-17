@@ -2375,6 +2375,6 @@ export default [
     name: 'Todd Jordan',
     oldId: 311,
     id: '311',
-    twitter: 'tddjordan'  
+    twitter: 'tddjordan'
   }
 ];

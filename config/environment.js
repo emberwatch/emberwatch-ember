@@ -4,10 +4,14 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'emberwatch-ember',
     environment: environment,
-    baseURL: '/',
+    rootURL: '/',
     locationType: 'auto',
     EmberENV: {
-      FEATURES: { }
+      FEATURES: { },
+      EXTEND_PROTOTYPES: {
+        // Prevent Ember Data from overriding Date.parse.
+        Date: false
+      }
     },
 
     APP: { }
@@ -20,7 +24,7 @@ module.exports = function(environment) {
 
   if (environment === 'test') {
     // Testem prefers this...
-    ENV.baseURL = '/';
+    ENV.rootURL = '/';
     ENV.locationType = 'none';
 
     // keep test console output quieter

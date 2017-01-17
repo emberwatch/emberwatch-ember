@@ -7,11 +7,17 @@ const {
   Route,
   RSVP
 } = Ember;
+const {
+  awsLambda: {
+    baseUrl,
+    podcastPath
+  }
+} = ENV;
 
 export default Route.extend({
   beforeModel() {
-    return this.store.findAll('podcast/feed').then(feeds => {
-      const fetchFeedEpisodes = this._fetchFeedEpisodes.bind(this);
+    return this.store.findAll('podcast/feed').then((feeds) => {
+      let fetchFeedEpisodes = this._fetchFeedEpisodes.bind(this);
       return RSVP.all(feeds.map(fetchFeedEpisodes));
     });
   },
@@ -25,14 +31,13 @@ export default Route.extend({
   },
 
   _fetchFeedEpisodes(feed) {
-    const encodedFeedURI = encodeURIComponent(feed.get('url')),
-      _lambda = ENV.awsLambda,
-      lambdaUrl = `${_lambda.baseUrl}/${_lambda.podcastPath}`;
+    let encodedFeedURI = encodeURIComponent(feed.get('url'));
+    let lambdaUrl = `${baseUrl}/${podcastPath}`;
 
-    return fetch(`${lambdaUrl}${encodedFeedURI}`).then(response => {
-      return response.json().then(feedItems => {
-        feedItems.forEach(feedItem => {
-          const episode = this.store.normalize('podcast/episode', feedItem);
+    return fetch(`${lambdaUrl}${encodedFeedURI}`).then((response) => {
+      return response.json().then((feedItems) => {
+        feedItems.forEach((feedItem) => {
+          let episode = this.store.normalize('podcast/episode', feedItem);
           episode.data.relationships.feed = {
             data: { type: 'podcast/feed', id: feed.get('id') }
           };
