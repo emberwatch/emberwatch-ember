@@ -16,7 +16,7 @@ export default RESTSerializer.extend({
     hash.members = recordHash.author;
     hash.summary = recordHash.summary;
 
-    hash.podcastName = recordHash['rss:title'];
+    hash.podcastName = recordHash['rss:title']['#'];
     hash.imageUrl = recordHash.meta.image.url;
 
     hash.type = TYPE;
