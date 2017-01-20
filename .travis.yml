@@ -23,3 +23,7 @@ install:
 
 script:
   - npm test
+
+branches:
+  except:
+    - staging.tmp
