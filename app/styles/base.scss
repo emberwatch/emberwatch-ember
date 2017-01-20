@@ -1,3 +1,5 @@
+@import 'variables';
+
 @mixin box-sizing($type){
   -webkit-box-sizing:$type;
   -moz-box-sizing:$type;
@@ -14,11 +16,8 @@
   transform:$command;
 }
 
-$mobile: "screen and (max-width:600px)";
-
-*{
+* {
   outline:none;
-
   @include box-sizing(border-box);
 }
 
@@ -311,99 +310,47 @@ section li {
 }
 
 
-/*TILE MODE ON LIST ITEMS*/
-section ul.tile{
-  overflow-y:auto;
+/* BOOK LIST*/
+div.books {
+  article {
+    border-bottom: 1px solid #F0F0F0;
+    padding: 2rem 0;
+    text-align: center;
 
-  /*whitespace fix*/
-  font-size:0px;
+    h2 { 
+      color: $emberwatch-orange;
+      font-size: 2rem;
+      font-weight: 400;
+      margin: 2rem 0;
+      text-align: center;
 
-  & li{
-    display:inline-block;
-
-    vertical-align:top;
-    width:160px;
-
-    margin-right:20px;
-
-    &.thumbnail_enabled{
-      padding-left:0px;
-    }
-
-    & h5{
-      margin-top:10px;
-
-      & span{
-        display:block;
-        margin:0px;
-        margin-top:10px;
+      a {
+        color: $emberwatch-orange;
       }
     }
 
-    & .metadata{
-      padding-top:20px;
+    .author { margin-bottom: .5rem; }
+    
+    .publisher {
+      margin-top: 2rem;
+      color: $font-gray;
 
-      & p{
-        font-size:15px;
-        line-height:24px;
-        margin:0px;
-        margin-bottom:5px;
+      .price {
+        color: #FFF;
+        background: darken($font-gray, 5%);
+        padding: 6px 10px;
+        border-radius: 30px;
+        margin-left: .5rem;
       }
     }
 
-    & .thumbnail.book{
-      display:block;
-
-      position:relative;
-
-      width:100%;
-      height:240px;
-
-      top:auto;
-      left:auto;
-
-      background:#e45036;
-
-      background-image: url(../images/logo.svg);
-      background-position: left 40px;
-      background-size: auto 16px;
-      background-repeat: no-repeat;
-
-      & .title{
-        display:inline-block;
-        margin-top:30px;
-
-        font-family:'Georgia', 'Cambria', sans-serif;
-        font-size:16px;
-        text-decoration:none;
-
-        padding:20px;
-        width:100%;
-
-        color:#e45036;
-        background:#F0F0F0;
-      }
-
-      & .price{
-
-        position:absolute;
-        bottom:15px;
-        right:15px;
-
-        font-size:14px;
-        background:#451209;
-        color:#fff;
-
-        padding:5px 15px;
-
-        margin-top:20px;
-
-        display:inline-block;
-        border-radius:50px;
-      }
+    @media (min-width: $screen-sm-min) {
+      .book-description { padding-left: 0;}
     }
   }
 }
+
+
 
 .so-container__question {
   width: 100%;

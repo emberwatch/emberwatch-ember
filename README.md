@@ -1,8 +1,12 @@
-# Emberwatch-ember
+[![Build Status](https://travis-ci.org/emberwatch/emberwatch-ember.svg?branch=master)](https://travis-ci.org/emberwatch/emberwatch-ember)
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+# EmberWatch
 
+This is a rewrite of the EmberWatch website, in Ember.js.
+We decided to do this basically because the site is about Ember.js, so we might as well make it another open source application that peeps could look into.
+
+Enjoy!
+ 
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
