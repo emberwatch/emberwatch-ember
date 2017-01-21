@@ -20,4 +20,8 @@ export default function() {
   this.get('/books', (schema)=> {
     return schema.books.all();
   });
+
+  this.get('/tutorials', (schema)=> {
+    return schema.tutorials.all();
+  });
 }

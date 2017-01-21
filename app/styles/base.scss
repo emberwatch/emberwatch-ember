@@ -317,7 +317,7 @@ div.books {
     padding: 2rem 0;
     text-align: center;
 
-    h2 { 
+    h2 {
       color: $emberwatch-orange;
       font-size: 2rem;
       font-weight: 400;
@@ -330,7 +330,7 @@ div.books {
     }
 
     .author { margin-bottom: .5rem; }
-    
+
     .publisher {
       margin-top: 2rem;
       color: $font-gray;
@@ -371,5 +371,20 @@ a.so-container__link {
 
   &:visited {
     color: #ededed;
+  }
+}
+
+.tutorials__title,
+.has-divider {
+  &::after {
+    display: inline-block;
+    content: "·";
+    padding-right: 2px;
+    padding-left: 5px;
+    color: $font-gray;
+  }
+
+  &:last-child::after {
+    display: none;
   }
 }
