@@ -15,6 +15,8 @@ const {
 } = ENV;
 
 export default Route.extend({
+  titleToken: 'Podcasts about Ember.js',
+
   beforeModel() {
     return this.store.findAll('podcast/feed').then((feeds) => {
       let fetchFeedEpisodes = this._fetchFeedEpisodes.bind(this);
