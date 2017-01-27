@@ -2376,5 +2376,27 @@ export default [
     oldId: 311,
     id: '311',
     twitter: 'tddjordan'
+  },
+  {
+    name: 'Erik Hanchett',
+    oldId: 312,
+    id: 'erikch',
+    twitter: 'ErikCH',
+    github: 'ErikCH',
+    site: 'http://programwitherik.com/'
+  },
+  {
+    name: 'David Tang',
+    oldId: 313,
+    id: '313',
+    twitter: 'skaterdav85',
+    github: 'skaterdav85',
+    site: 'http://thejsguy.com/'
+  },
+  {
+    name: 'Sherwin Silveira',
+    oldId: 314,
+    id: 'sherwinsilveira',
+    site: 'https://www.packtpub.com'
   }
 ];
