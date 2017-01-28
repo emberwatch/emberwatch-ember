@@ -1,0 +1,19 @@
+{{outlet}}
+<div class="row">
+  <div class="col-sm-4">
+    <h2 class="stackoverflow-sections">StackOverflow</h2>
+  </div>
+</div>
+<div class="row">
+  <div id="content-container" class="col-sm-12">
+    {{#each model.items as |question|}}
+      <div class="so-container__question">
+        <a class="so-container__link"
+           href="{{question.link}}"
+           target="_blank"
+            data-test-contribute-question-id={{question.question_id}}>{{{question.title}}}</a>
+      </div>
+    {{/each}}
+  </div>
+</div>
+{{log model}}

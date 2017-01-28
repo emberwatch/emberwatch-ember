@@ -4,6 +4,14 @@ import { serializeFixturesToJsonApi } from 'emberwatch-ember/mirage/util/seriali
 export default function() {
   this.passthrough(`${ENV.awsLambda.baseUrl}/**`);
 
+  if (ENV.environment !== 'test') {
+    this.passthrough('https://api.stackexchange.com/**');
+  } else {
+    this.get('https://api.stackexchange.com/2.2/questions/unanswered', ({ db }) => {
+      return db.contributes.get('firstObject');
+    });
+  }
+
   this.get('/podcast/feeds', ({ db }) => {
     return serializeFixturesToJsonApi(db.podcastFeeds, 'podcast/feed');
   });
