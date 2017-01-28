@@ -954,6 +954,12 @@ export default [
     site: 'http://thefuriousone.com/'
   },
   {
+    oldId: 128,
+    id: 'cmeik',
+    name: 'Christopher Meiklejohn',
+    site: 'https://christophermeiklejohn.com/'
+  },
+  {
     oldId: 129,
     id: '129',
     name: 'Justin Searls',

@@ -24,4 +24,12 @@ export default function() {
   this.get('/tutorials', (schema)=> {
     return schema.tutorials.all();
   });
+
+  this.get('/talks', (schema)=> {
+    return schema.talks.all();
+  });
+
+  this.get('/events', (schema)=> {
+    return schema.events.all();
+  });
 }

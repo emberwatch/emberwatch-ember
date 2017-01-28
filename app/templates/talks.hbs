@@ -1,0 +1,46 @@
+{{outlet}}
+
+<div class="row talks">
+  <ul>
+    {{#each talksSorted as |month|}}
+      <h2 data-test-talk-month-header="{{month.value}}">{{moment-format month.value 'MMMM YYYY' 'YYYY-MM'}}</h2>
+      {{#each month.items as |talk|}}
+        <li class="thumbnail_enabled">
+          {{#if talk.thumbnail}}
+            <div class="thumbnail video"
+                 style={{talk.thumbnailStyle}}
+                   data-test-talk-thumbnail-id={{talk.id}}>
+            </div>
+          {{else}}
+            <div class="thumbnail default"></div>
+          {{/if}}
+          <h5>
+            <a href="{{talk.firstVideo}}" data-test-talk-title-id={{talk.id}}>{{talk.title}}</a>
+            {{#if talk.event}}
+              <span class="event-name">
+                {{talk.event.name}}
+              </span>
+            {{/if}}
+            <a target="_blank" href="{{talk.firstVideo}}">
+              <img src="/images/link-new-tab.png" style="vertical-align: bottom">
+            </a>
+          </h5>
+          <div class="metadata">
+            {{#each talk.authors as |author|}}
+              {{#if author.site}}
+                <a href="{{author.site}}" class="has-divider" data-test-talk-id-author="{{talk.id}}">{{author.name}}</a>
+              {{else}}
+                <span class="has-divider">{{author.name}}</span>
+              {{/if}}
+            {{/each}}
+            <span class="has-divider">{{moment-format talk.date 'MMM Do YYYY' 'MM-DD-YYYY'}}</span>
+            <a class="has-divider" href="{{talk.firstVideo}}">Video</a>
+            {{#if talk.slides}}
+              <a class="has-divider" href="{{talk.slides}}">Slides</a>
+            {{/if}}
+          </div>
+        </li>
+      {{/each}}
+    {{/each}}
+  </ul>
+</div>
