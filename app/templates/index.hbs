@@ -1,0 +1,24 @@
+{{outlet}}
+<div class="hello">
+  <h1>
+    Welcome to EmberWatch
+  </h1>
+  <p>
+    EmberWatch is a community-run resource for EmberJS. Here you'll find keynotes, useful books, tutorials and more!
+  </p>
+</div>
+
+<ul class="homepage">
+  <li>
+    <h1>Latest Talks {{#link-to 'talks'}}View All{{/link-to}}</h1>
+    {{#each talks as |talk|}}
+      {{talk-item talk=talk}}
+    {{/each}}
+  </li>
+  <li>
+    <h1>Latest Tutorials {{#link-to 'tutorials'}}View All{{/link-to}}</h1>
+    {{#each tutorials as |tutorial|}}
+      {{tutorial-item tutorial=tutorial}}
+    {{/each}}
+  </li>
+</ul>
