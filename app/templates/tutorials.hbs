@@ -5,23 +5,7 @@
     {{#each tutorialsSorted as |month|}}
       <h2 data-test-tutorial-month-header="{{month.value}}">{{moment-format month.value 'MMMM YYYY' 'YYYY-MM'}}</h2>
       {{#each month.items as |tutorial|}}
-        <li>
-          <h5>
-            {{#each tutorial.parts as |part|}}
-              <a class="tutorials__title" href="{{part.url}}" data-test-tutorial-title-id="{{tutorial.id}}">{{part.title}}</a>
-            {{/each}}
-          </h5>
-          <div class="metadata">
-            {{#each tutorial.authors as |author|}}
-              {{#if author.site}}
-                <a href="{{author.site}}" class="has-divider" data-test-tutorial-id-author="{{tutorial.id}}">{{author.name}}</a>
-              {{else}}
-                <span class="has-divider">{{author.name}}</span>
-              {{/if}}
-            {{/each}}
-            <span class="has-divider">{{moment-format tutorial.date 'MMM Do YYYY' 'MM-DD-YYYY'}}</span>
-          </div>
-        </li>
+        {{tutorial-item tutorial=tutorial}}
       {{/each}}
     {{/each}}
   </ul>
