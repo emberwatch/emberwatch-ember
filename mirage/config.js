@@ -40,4 +40,8 @@ export default function() {
   this.get('/events', (schema)=> {
     return schema.events.all();
   });
+
+  this.get('/screencasts', (schema)=> {
+    return schema.screencasts.all();
+  });
 }

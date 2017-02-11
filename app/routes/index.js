@@ -10,7 +10,8 @@ export default Route.extend({
   model() {
     return RSVP.hash({
       talks: this.store.findAll('talk').then((result) => result.toArray().reverse().slice(0, 3)),
-      tutorials: this.store.findAll('tutorial').then((result) => result.toArray().reverse().slice(0, 3))
+      tutorials: this.store.findAll('tutorial').then((result) => result.toArray().reverse().slice(0, 3)),
+      screencasts: this.store.findAll('screencast').then((result) => result.toArray().reverse().slice(0, 3))
     });
   },
 

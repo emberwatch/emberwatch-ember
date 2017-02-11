@@ -1,0 +1,39 @@
+{{yield}}
+<li class="thumbnail_enabled">
+  {{#if screencast.thumbnail}}
+    <div class="thumbnail video"
+         style={{screencast.thumbnailStyle}}
+           data-test-screencast-thumbnail-id={{screencast.id}}>
+    </div>
+  {{else}}
+    <div class="thumbnail default"></div>
+  {{/if}}
+  <h5>
+    <a href="{{screencast.firstVideo}}" data-test-screencast-title-id={{screencast.id}}>{{screencast.title}}</a>
+    {{#if screencast.event}}
+      <span class="event-name">
+        {{screencast.event.name}}
+      </span>
+    {{/if}}
+    <a target="_blank" href="{{screencast.firstVideo}}">
+      <img src="/images/link-new-tab.png" style="vertical-align: bottom">
+    </a>
+  </h5>
+  <div class="metadata">
+    {{#each screencast.authors as |author|}}
+      {{#if author.site}}
+        <a href="{{author.site}}" class="has-divider" data-test-screencast-id-author="{{screencast.id}}">{{author.name}}</a>
+      {{else}}
+        <span class="has-divider">{{author.name}}</span>
+      {{/if}}
+    {{/each}}
+    <span class="has-divider">{{moment-format screencast.date 'MMM Do YYYY' 'MM-DD-YYYY'}}</span>
+    <a class="has-divider" href="{{screencast.firstVideo}}">Video</a>
+    {{#if screencast.price}}
+      <span class="has-divider">{{screencast.price}}</span>
+    {{/if}}
+    {{#if screencast.series}}
+      <span class="has-divider">{{screencast.series}}</span>
+    {{/if}}
+  </div>
+</li>
