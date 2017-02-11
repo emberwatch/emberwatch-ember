@@ -1,0 +1,12 @@
+{{outlet}}
+
+<div class="row talks">
+  <ul>
+    {{#each screencastsSorted as |month|}}
+      <h2 data-test-screencast-month-header="{{month.value}}">{{moment-format month.value 'MMMM YYYY' 'YYYY-MM'}}</h2>
+      {{#each month.items as |screencast|}}
+        {{screencast-item screencast=screencast}}
+      {{/each}}
+    {{/each}}
+  </ul>
+</div>

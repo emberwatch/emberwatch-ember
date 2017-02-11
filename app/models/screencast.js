@@ -10,19 +10,17 @@ const {
 const {
   Model,
   attr,
-  belongsTo,
   hasMany
 } = DS;
 
 export default Model.extend(VideoMixin, {
   title: attr('string'),
-  subtitle: attr('string'),
-  videos: attr(),
   url: attr('string'),
-  slides: attr('string'),
-  authors: hasMany('person'),
-  event: belongsTo('event'),
   date: attr('date'),
+  authors: hasMany('person'),
+  videos: attr(),
+  price: attr('string'),
+  series: attr('string'),
 
   month: computed('date', function() {
     return moment(this.get('date')).format('YYYY-MM');

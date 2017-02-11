@@ -21,4 +21,10 @@
       {{tutorial-item tutorial=tutorial}}
     {{/each}}
   </li>
+  <li>
+    <h1>Latest Screencasts {{#link-to 'screencasts'}}View All{{/link-to}}</h1>
+    {{#each screencasts as |screencast|}}
+      {{screencast-item screencast=screencast}}
+    {{/each}}
+  </li>
 </ul>
