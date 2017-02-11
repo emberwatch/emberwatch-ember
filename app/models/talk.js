@@ -1,10 +1,10 @@
 import Ember from 'ember';
 import DS from 'ember-data';
 import moment from 'moment';
+import VideoMixin from '../mixins/video';
 
 const {
-  computed,
-  String: { htmlSafe }
+  computed
 } = Ember;
 
 const {
@@ -14,9 +14,7 @@ const {
   hasMany
 } = DS;
 
-const youtubeRegex = /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
-
-export default Model.extend({
+export default Model.extend(VideoMixin, {
   title: attr('string'),
   subtitle: attr('string'),
   videos: attr(),
@@ -28,28 +26,5 @@ export default Model.extend({
 
   month: computed('date', function() {
     return moment(this.get('date')).format('YYYY-MM');
-  }),
-  firstVideo: computed('videos', function() {
-    let videos = this.get('videos');
-    if (videos) {
-      return videos[0];
-    }
-  }),
-  thumbnail: computed('firstVideo', function() {
-    let video = this.get('firstVideo');
-
-    if (video) {
-      let youtubeMatch = video.match(youtubeRegex);
-      if (youtubeMatch) {
-        let [, , youtubeId] = youtubeMatch;
-        return `http://img.youtube.com/vi/${youtubeId}/hqdefault.jpg`;
-      }
-    }
-  }),
-  thumbnailStyle: computed('thumbnail', function() {
-    let thumbnail = this.get('thumbnail');
-    if (thumbnail) {
-      return htmlSafe(`background-image:url('${thumbnail}');`);
-    }
   })
 });
