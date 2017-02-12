@@ -1,10 +1,12 @@
 import Ember from 'ember';
 
-const { Route } = Ember;
+const {
+  Route
+} = Ember;
 
 export default Route.extend({
   titleToken: 'Tutorials about Ember.js',
   model() {
-    return this.store.findAll('tutorial');
+    return this.store.findAll('tutorial').then((result) => result.sortBy('date').toArray().reverse());
   }
 });

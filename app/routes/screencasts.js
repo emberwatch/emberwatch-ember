@@ -7,6 +7,6 @@ const {
 export default Route.extend({
   titleToken: 'Screencasts about Ember.js',
   model() {
-    return this.store.findAll('screencast');
+    return this.store.findAll('screencast').then((result) => result.sortBy('date').toArray().reverse());
   }
 });
