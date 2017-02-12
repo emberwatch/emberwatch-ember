@@ -7,6 +7,6 @@ const {
 export default Route.extend({
   titleToken: 'Talks about Ember.js',
   model() {
-    return this.store.findAll('talk');
+    return this.store.findAll('talk').then((result) => result.sortBy('date').toArray().reverse());
   }
 });
