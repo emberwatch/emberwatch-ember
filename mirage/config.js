@@ -12,6 +12,8 @@ export default function() {
     });
   }
 
+  this.namespace = '/api';
+
   this.get('/podcast/feeds', ({ db }) => {
     return serializeFixturesToJsonApi(db.podcastFeeds, 'podcast/feed');
   });
