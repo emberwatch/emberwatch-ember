@@ -14,7 +14,11 @@ module.exports = function(environment) {
       }
     },
 
-    APP: { }
+    APP: { },
+
+    fastboot: {
+      hostWhitelist: [/^localhost:\d+$/]
+    }
   };
 
   ENV.awsLambda = {
@@ -37,7 +41,8 @@ module.exports = function(environment) {
   if (environment === 'production') {
     ENV['ember-cli-mirage'] = {
       enabled: true
-    }
+    };
+    ENV.fastboot.hostWhitelist = [ "serene-dusk-36718.herokuapp.com" ];
   }
 
   return ENV;
