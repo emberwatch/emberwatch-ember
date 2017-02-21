@@ -18,12 +18,14 @@ module.exports = function(environment) {
 
     fastboot: {
       hostWhitelist: [/^localhost:\d+$/]
-    }
-  };
+    },
 
-  ENV.awsLambda = {
-    baseUrl: 'https://00xdxb1q7j.execute-api.us-east-1.amazonaws.com',
-    podcastPath: 'prod/jarsson?rss='
+    awsLambda: {
+      baseUrl: 'https://00xdxb1q7j.execute-api.us-east-1.amazonaws.com',
+      podcastPath: 'prod/jarsson?rss='
+    },
+
+    apiHost: 'http://localhost:3000'
   };
 
   if (environment === 'test') {
@@ -40,10 +42,11 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     ENV.fastboot.hostWhitelist = [ "serene-dusk-36718.herokuapp.com" ];
+    ENV.apiHost = 'http://vast-meadow-82621.herokuapp.com';
   }
 
   ENV['ember-cli-mirage'] = {
-    enabled: true
+    enabled: false
   };
 
   return ENV;
