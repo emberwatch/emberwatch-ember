@@ -52,6 +52,7 @@
     "fastboot-app-server": "^1.0.0-rc.5",
     "js-string-escape": "^1.0.0",
     "loader.js": "^4.0.10"
+  },
   "dependencies": {
     "fastboot-app-server": "^1.0.0-rc.5"
   }
