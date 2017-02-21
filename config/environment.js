@@ -39,11 +39,12 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV['ember-cli-mirage'] = {
-      enabled: true
-    };
     ENV.fastboot.hostWhitelist = [ "serene-dusk-36718.herokuapp.com" ];
   }
+
+  ENV['ember-cli-mirage'] = {
+    enabled: true
+  };
 
   return ENV;
 };

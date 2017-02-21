@@ -3,6 +3,7 @@ import { serializeFixturesToJsonApi } from 'emberwatch-ember/mirage/util/seriali
 
 export default function() {
   this.passthrough(`${ENV.awsLambda.baseUrl}/**`);
+  this.passthrough('http://vast-meadow-82621.herokuapp.com/**');
 
   if (ENV.environment !== 'test') {
     this.passthrough('https://api.stackexchange.com/**');
@@ -27,9 +28,11 @@ export default function() {
     return schema.people.find(id);
   });
 
-  this.get('/books', (schema)=> {
-    return schema.books.all();
-  });
+  this.passthrough('/books');
+
+  // this.get('/books', (schema)=> {
+  //   return schema.books.all();
+  // });
 
   this.get('/tutorials', (schema)=> {
     return schema.tutorials.all();
