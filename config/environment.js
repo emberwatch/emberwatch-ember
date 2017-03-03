@@ -42,7 +42,7 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     ENV.fastboot.hostWhitelist = [ "serene-dusk-36718.herokuapp.com" ];
-    ENV.apiHost = 'http://vast-meadow-82621.herokuapp.com';
+    ENV.apiHost = 'https://vast-meadow-82621.herokuapp.com';
   }
 
   ENV['ember-cli-mirage'] = {
