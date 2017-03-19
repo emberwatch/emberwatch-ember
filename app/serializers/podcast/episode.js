@@ -9,14 +9,14 @@ export default RESTSerializer.extend({
     let hash = {};
 
     hash.title = recordHash.title;
-    hash.url = recordHash['rss:link'];
+    hash.url = recordHash.link;
 
     hash.date = recordHash.pubDate;
-    hash.duration = recordHash['itunes:duration'];
+    hash.duration = recordHash['itunes:duration']['#'];
     hash.members = recordHash.author;
     hash.summary = recordHash.summary;
 
-    hash.podcastName = recordHash['rss:title']['#'];
+    hash.podcastName = recordHash.meta.title;
     hash.imageUrl = recordHash.meta.image.url;
 
     hash.type = TYPE;

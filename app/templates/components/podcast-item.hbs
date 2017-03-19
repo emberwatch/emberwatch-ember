@@ -1,0 +1,11 @@
+{{yield}}
+<li>
+  <h5>
+    <a href="{{podcast.url}}">{{title}}</a>
+    <span class="event-name">{{podcast.podcastName}} {{episodeNumber}}</span>
+    <a href="{{podcast.url}}" target="_blank"><img src="/images/link-new-tab.png" role="presentation"/></a>
+  </h5>
+  <div class="metadata">
+    {{podcast.members}} &middot; {{moment-format podcast.date 'ddd d MMM YYYY'}} &middot; {{podcast.duration}}
+  </div>
+</li>

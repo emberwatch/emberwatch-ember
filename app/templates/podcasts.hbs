@@ -1,3 +1,5 @@
-{{#each podcasts as |podcast|}}
-  {{podcast}}
-{{/each}}j
+<ul data-test-podcasts-list>
+  {{#each model as |podcast|}}
+    {{podcast-item podcast=podcast}}
+  {{/each}}
+</ul>

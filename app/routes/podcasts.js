@@ -28,10 +28,6 @@ export default Route.extend({
     return this.store.peekAll('podcast/episode');
   },
 
-  setupController(controller, model) {
-    controller.set('podcasts', model);
-  },
-
   _fetchFeedEpisodes(feed) {
     let encodedFeedURI = encodeURIComponent(feed.get('url'));
     let lambdaUrl = `${baseUrl}/${podcastPath}`;
