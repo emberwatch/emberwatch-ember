@@ -14,16 +14,16 @@ test('visiting /tutorials', function(assert) {
 
 test('month header gets displayed', function(assert) {
   visit('/tutorials');
-  andThen(() => assert.equal(find(testSelector('tutorial-month-header', '2012-01')).text(), 'January 2012'));
+  andThen(() => assert.equal(find(testSelector('tutorial-month-header', '2015-12')).text(), 'December 2015'));
 });
 
 test('multipart article titles', function(assert) {
   visit('/tutorials');
 
   andThen(() => {
-    let multipartTutorial = find(testSelector('tutorial-title-id', '3'));
+    let multipartTutorial = find(testSelector('tutorial-title-id', '1'));
 
-    assert.equal(multipartTutorial[0].text, 'Beginning Ember.js on Rails');
+    assert.equal(multipartTutorial[0].text, 'Ember: Adding Catch Block for Returned Promise');
     assert.equal(multipartTutorial[1].text, 'Part 2');
     assert.equal(multipartTutorial[2].text, 'Part 3');
   });
@@ -31,5 +31,5 @@ test('multipart article titles', function(assert) {
 
 test('author name is correctly displayed', function(assert) {
   visit('/tutorials');
-  andThen(() => assert.equal(find(testSelector('tutorial-id-author', '3')).text(), 'Dan Gebhardt'));
+  andThen(() => assert.equal(find(testSelector('tutorial-id-author', '1')).text(), 'Tom Dale'));
 });

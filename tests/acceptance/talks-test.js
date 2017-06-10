@@ -14,15 +14,15 @@ test('visiting /talks', function(assert) {
 
 test('month header gets displayed', function(assert) {
   visit('/talks');
-  andThen(() => assert.equal(find(testSelector('talk-month-header', '2012-02')).text(), 'February 2012'));
+  andThen(() => assert.equal(find(testSelector('talk-month-header', '2012-10')).text(), 'October 2012'));
 });
 
 test('talk title gets displayed', function(assert) {
   visit('/talks');
-  andThen(() => assert.equal(find(testSelector('talk-title-id', 417)).text(), 'Introduction to ember-concurrency'));
+  andThen(() => assert.equal(find(testSelector('talk-title-id', 18)).text(), 'Ember.js Introduction'));
 });
 
 test('check for youtube thumbnail image', function(assert) {
   visit('/talks');
-  andThen(() => assert.equal(find(testSelector('talk-thumbnail-id', '10')).attr('style'), 'background-image:url(\'http://img.youtube.com/vi/B8vyxHZc4fo/hqdefault.jpg\');'));
+  andThen(() => assert.equal(find(testSelector('talk-thumbnail-id', '18')).attr('style'), 'background-image:url(\'http://img.youtube.com/vi/hod-KX81i7s/hqdefault.jpg\');'));
 });

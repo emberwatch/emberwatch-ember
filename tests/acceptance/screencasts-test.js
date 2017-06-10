@@ -14,10 +14,10 @@ test('visiting /screencasts', function(assert) {
 
 test('month header gets displayed', function(assert) {
   visit('/screencasts');
-  andThen(() => assert.equal(find(testSelector('screencast-month-header', '2012-10')).text(), 'October 2012'));
+  andThen(() => assert.equal(find(testSelector('screencast-month-header', '2013-08')).text(), 'August 2013'));
 });
 
 test('talk title gets displayed', function(assert) {
   visit('/screencasts');
-  andThen(() => assert.equal(find(testSelector('screencast-title-id', 1)).text(), 'Getting Started with Ember.js'));
+  andThen(() => assert.equal(find(testSelector('screencast-title-id', 41)).text(), 'Building an App with Ember.js'));
 });

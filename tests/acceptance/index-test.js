@@ -9,7 +9,5 @@ test('visiting /', function(assert) {
   andThen(function() {
     assert.equal(currentURL(), '/');
     assert.equal(find('.hello h1').text().trim(), 'Welcome to EmberWatch');
-
   });
 });
-
