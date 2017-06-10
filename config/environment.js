@@ -1,9 +1,8 @@
-/* jshint node: true */
-
+/* eslint-env node */
 module.exports = function(environment) {
-  var ENV = {
+  let ENV = {
     modulePrefix: 'emberwatch-ember',
-    environment: environment,
+    environment,
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
@@ -12,6 +11,11 @@ module.exports = function(environment) {
         // Prevent Ember Data from overriding Date.parse.
         Date: false
       }
+    },
+
+    api: {
+      host: '',
+      namespace: 'api'
     },
 
     APP: { },
@@ -39,7 +43,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.fastboot.hostWhitelist = [ "serene-dusk-36718.herokuapp.com" ];
+    ENV.fastboot.hostWhitelist = ['serene-dusk-36718.herokuapp.com'];
   }
 
   return ENV;
