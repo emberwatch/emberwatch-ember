@@ -6,6 +6,10 @@ This is a rewrite of the EmberWatch website, in Ember.js.
 We decided to do this basically because the site is about Ember.js, so we might as well make it another open source application that peeps could look into.
 
 Enjoy!
+
+```markdown
+**DEPRECATED** This project is not currently maintained.
+```
  
 ## Prerequisites
 
